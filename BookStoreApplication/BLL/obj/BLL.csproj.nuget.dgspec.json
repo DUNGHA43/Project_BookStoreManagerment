@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\BookStoreApplication\\BLL\\BLL.csproj": {}
+    "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\Project\\BookStoreApplication\\BLL\\BLL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\BookStoreApplication\\BLL\\BLL.csproj": {
+    "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\Project\\BookStoreApplication\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\BookStoreApplication\\BLL\\BLL.csproj",
+        "projectUniqueName": "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\Project\\BookStoreApplication\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\BookStoreApplication\\BLL\\BLL.csproj",
+        "projectPath": "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\Project\\BookStoreApplication\\BLL\\BLL.csproj",
         "packagesPath": "C:\\Users\\dungh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\BookStoreApplication\\BLL\\obj\\",
+        "outputPath": "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\Project\\BookStoreApplication\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -24,7 +24,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -33,9 +33,16 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {}
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\Project\\BookStoreApplication\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\Project\\BookStoreApplication\\DAL\\DAL.csproj"
+              },
+              "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\Project\\BookStoreApplication\\DTO\\DTO.csproj": {
+                "projectPath": "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\Project\\BookStoreApplication\\DTO\\DTO.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -50,8 +57,8 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "imports": [
             "net461",
             "net462",
@@ -68,7 +75,147 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\Project\\BookStoreApplication\\DAL\\DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\Project\\BookStoreApplication\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\Project\\BookStoreApplication\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\dungh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\Project\\BookStoreApplication\\DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dungh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\Project\\BookStoreApplication\\DTO\\DTO.csproj": {
+                "projectPath": "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\Project\\BookStoreApplication\\DTO\\DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\Project\\BookStoreApplication\\DTO\\DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\Project\\BookStoreApplication\\DTO\\DTO.csproj",
+        "projectName": "DTO",
+        "projectPath": "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\Project\\BookStoreApplication\\DTO\\DTO.csproj",
+        "packagesPath": "C:\\Users\\dungh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\Project\\BookStoreApplication\\DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dungh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -23,9 +23,10 @@ namespace MainMenu
         uiAuthorMNG uiAuthorMNG;
         uiCategory uiCategory;
 
-        public frmMainMenu()
+        public frmMainMenu(string user, string roleacc)
         {
             InitializeComponent();
+            title.Caption = $"Chúc một ngày làm việc vui vẻ: {user}";
         }
 
         private void btnLogOut_Click(object sender, EventArgs e)

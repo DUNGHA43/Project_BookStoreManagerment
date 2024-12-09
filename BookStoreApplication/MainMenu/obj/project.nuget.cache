@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fjhgbVovZBU=",
+  "dgSpecHash": "mdtbyJoDD48=",
   "success": true,
-  "projectFilePath": "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\BookStoreApplication\\MainMenu\\GUI.csproj",
+  "projectFilePath": "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\Project\\BookStoreApplication\\MainMenu\\GUI.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages\\devexpress.charts\\22.2.3\\devexpress.charts.22.2.3.nupkg.sha512",
     "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages\\devexpress.charts.core\\22.2.3\\devexpress.charts.core.22.2.3.nupkg.sha512",

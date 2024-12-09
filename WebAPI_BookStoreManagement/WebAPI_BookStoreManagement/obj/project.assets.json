@@ -3233,11 +3233,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj",
+      "projectUniqueName": "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj",
       "projectName": "WebAPI_BookStoreManagement",
-      "projectPath": "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj",
+      "projectPath": "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj",
       "packagesPath": "C:\\Users\\dungh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\obj\\",
+      "outputPath": "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",

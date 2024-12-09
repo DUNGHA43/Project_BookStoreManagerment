@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TFArG4MD7YQ=",
+  "dgSpecHash": "n0eoUMzodZ4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj",
+  "projectFilePath": "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dungh\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\dungh\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

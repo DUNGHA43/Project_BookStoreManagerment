@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GUI
-build_property.ProjectDir = C:\Users\dungh\Documents\Đồ án chuyên ngành 2\BookStoreApplication\MainMenu\
+build_property.ProjectDir = C:\Users\dungh\Documents\Đồ án chuyên ngành 2\Project\BookStoreApplication\MainMenu\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

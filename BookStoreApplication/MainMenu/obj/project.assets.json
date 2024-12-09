@@ -2189,6 +2189,43 @@
             "rid": "win"
           }
         }
+      },
+      "BLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DAL": "1.0.0",
+          "DTO": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BLL.dll": {}
+        }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DTO": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DTO.dll": {}
+        }
       }
     }
   },
@@ -5280,10 +5317,27 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "BLL/1.0.0": {
+      "type": "project",
+      "path": "../BLL/BLL.csproj",
+      "msbuildProject": "../BLL/BLL.csproj"
+    },
+    "DAL/1.0.0": {
+      "type": "project",
+      "path": "../DAL/DAL.csproj",
+      "msbuildProject": "../DAL/DAL.csproj"
+    },
+    "DTO/1.0.0": {
+      "type": "project",
+      "path": "../DTO/DTO.csproj",
+      "msbuildProject": "../DTO/DTO.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0-windows7.0": [
+      "BLL >= 1.0.0",
+      "DTO >= 1.0.0",
       "DevExpress.Win.Design >= 22.2.*-*"
     ]
   },
@@ -5295,11 +5349,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\BookStoreApplication\\MainMenu\\GUI.csproj",
+      "projectUniqueName": "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\Project\\BookStoreApplication\\MainMenu\\GUI.csproj",
       "projectName": "GUI",
-      "projectPath": "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\BookStoreApplication\\MainMenu\\GUI.csproj",
+      "projectPath": "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\Project\\BookStoreApplication\\MainMenu\\GUI.csproj",
       "packagesPath": "C:\\Users\\dungh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\BookStoreApplication\\MainMenu\\obj\\",
+      "outputPath": "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\Project\\BookStoreApplication\\MainMenu\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -5323,7 +5377,14 @@
       "frameworks": {
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\Project\\BookStoreApplication\\BLL\\BLL.csproj": {
+              "projectPath": "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\Project\\BookStoreApplication\\BLL\\BLL.csproj"
+            },
+            "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\Project\\BookStoreApplication\\DTO\\DTO.csproj": {
+              "projectPath": "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\Project\\BookStoreApplication\\DTO\\DTO.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
