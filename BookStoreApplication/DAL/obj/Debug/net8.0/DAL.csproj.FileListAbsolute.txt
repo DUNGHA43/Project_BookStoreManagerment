@@ -1,0 +1,11 @@
+C:\Users\dungh\Documents\Đồ án chuyên ngành 2\BookStoreApplication\DAL\bin\Debug\net8.0\DAL.deps.json
+C:\Users\dungh\Documents\Đồ án chuyên ngành 2\BookStoreApplication\DAL\bin\Debug\net8.0\DAL.dll
+C:\Users\dungh\Documents\Đồ án chuyên ngành 2\BookStoreApplication\DAL\bin\Debug\net8.0\DAL.pdb
+C:\Users\dungh\Documents\Đồ án chuyên ngành 2\BookStoreApplication\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dungh\Documents\Đồ án chuyên ngành 2\BookStoreApplication\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+C:\Users\dungh\Documents\Đồ án chuyên ngành 2\BookStoreApplication\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+C:\Users\dungh\Documents\Đồ án chuyên ngành 2\BookStoreApplication\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\dungh\Documents\Đồ án chuyên ngành 2\BookStoreApplication\DAL\obj\Debug\net8.0\DAL.dll
+C:\Users\dungh\Documents\Đồ án chuyên ngành 2\BookStoreApplication\DAL\obj\Debug\net8.0\refint\DAL.dll
+C:\Users\dungh\Documents\Đồ án chuyên ngành 2\BookStoreApplication\DAL\obj\Debug\net8.0\DAL.pdb
+C:\Users\dungh\Documents\Đồ án chuyên ngành 2\BookStoreApplication\DAL\obj\Debug\net8.0\ref\DAL.dll

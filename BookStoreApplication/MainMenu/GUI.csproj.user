@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmMainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\frmBookReceiptDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\frmBookSalesInvoiceDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\frmChangePass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\uiAccountsMNG.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UI\uiAuthorMNG.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UI\uiBookReceipts.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UI\uiBooks.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UI\uiCategory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UI\uiPersonnelMNG.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UI\uiBookSalesInvoice.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UI\uiPublisherMNG.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
