@@ -44,6 +44,11 @@ namespace WebAPI_BookStoreManagement.Services
             return await _unitOfWork.Account.LoginApp(username, password);
         }
 
+        public async Task<IEnumerable<Account>> SearchByUsername(string username)
+        {
+            return await _unitOfWork.Account.SearchByUsernameAsync(username);
+        }
+
         public async Task UpdateAccountAsync(Account account)
         {
             _unitOfWork.Account.UpdateAsync(account);

@@ -61,7 +61,7 @@ namespace GUI
             }
             catch (Exception ex)
             {
-                throw new Exception(ex.Message);
+                MessageBox.Show("Sai tài khoản hoặc mật khẩu!", "Cảnh báo!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
     }

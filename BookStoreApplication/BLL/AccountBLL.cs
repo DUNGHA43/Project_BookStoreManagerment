@@ -21,5 +21,30 @@ namespace BLL
         {
             return _accoutnDAL.LoginAsync(username, password);
         }
+
+        public async Task<IEnumerable<AccountDTO>> ShowAllAccounts()
+        {
+            return await _accoutnDAL.GetAllAccountAsync();
+        }
+
+        public async Task<IEnumerable<AccountDTO>> SearchStaffByUsername(string username)
+        {
+            return await _accoutnDAL.GetByUsername(username);
+        }
+
+        public async Task<bool> AddAccountAsync(AccountDTO accountDTO)
+        {
+            return await _accoutnDAL.AddAsync(accountDTO);
+        }
+
+        public async Task<bool> UpdateAccountAsync(AccountDTO accountDTO)
+        {
+            return await _accoutnDAL.UpdateAsync(accountDTO);
+        }
+
+        public async Task<bool> DeleteAccountAsync(string username)
+        {
+            return await _accoutnDAL.DeleteAsync(username);
+        }
     }
 }

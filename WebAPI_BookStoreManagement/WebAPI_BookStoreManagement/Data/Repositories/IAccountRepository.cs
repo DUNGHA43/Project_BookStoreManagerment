@@ -6,5 +6,6 @@ namespace WebAPI_BookStoreManagement.Data.Repositories
     public interface IAccountRepository : IRepository<Account>
     {
         Task<Account> LoginApp(object username, object password);
+        Task<IEnumerable<Account>> SearchByUsernameAsync(string username);
     }
 }

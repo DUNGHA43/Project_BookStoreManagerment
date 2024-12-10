@@ -247,3 +247,4 @@ C:\Users\dungh\Documents\Đồ án chuyên ngành 2\Project\BookStoreApplication
 C:\Users\dungh\Documents\Đồ án chuyên ngành 2\Project\BookStoreApplication\MainMenu\obj\Debug\net7.0-windows\GUI.pdb
 C:\Users\dungh\Documents\Đồ án chuyên ngành 2\Project\BookStoreApplication\MainMenu\obj\Debug\net7.0-windows\GUI.genruntimeconfig.cache
 C:\Users\dungh\Documents\Đồ án chuyên ngành 2\Project\BookStoreApplication\MainMenu\obj\Debug\net7.0-windows\ref\GUI.dll
+C:\Users\dungh\Documents\Đồ án chuyên ngành 2\Project\BookStoreApplication\MainMenu\bin\Debug\net7.0-windows\Newtonsoft.Json.dll

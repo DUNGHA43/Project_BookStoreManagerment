@@ -23,5 +23,10 @@ namespace WebAPI_BookStoreManagement.Data.Repositories
 
             return login;
         }
+
+        public async Task<IEnumerable<Account>> SearchByUsernameAsync(string username)
+        {
+            return await _dbSet.Where(account => account.username.Contains(username)).ToListAsync();
+        }
     }
 }

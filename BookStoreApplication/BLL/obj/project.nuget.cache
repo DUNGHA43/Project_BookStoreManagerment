@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "erYsN+66j2A=",
+  "dgSpecHash": "qnoB3wulExI=",
   "success": true,
   "projectFilePath": "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\Project\\BookStoreApplication\\BLL\\BLL.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\dungh\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

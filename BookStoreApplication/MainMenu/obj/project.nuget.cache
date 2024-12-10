@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mdtbyJoDD48=",
+  "dgSpecHash": "pHKGOg0aV/g=",
   "success": true,
   "projectFilePath": "C:\\Users\\dungh\\Documents\\Đồ án chuyên ngành 2\\Project\\BookStoreApplication\\MainMenu\\GUI.csproj",
   "expectedPackageFiles": [
@@ -67,6 +67,7 @@
     "C:\\Users\\dungh\\.nuget\\packages\\microsoft.win32.registry\\4.6.0\\microsoft.win32.registry.4.6.0.nupkg.sha512",
     "C:\\Users\\dungh\\.nuget\\packages\\microsoft.win32.systemevents\\4.6.0\\microsoft.win32.systemevents.4.6.0.nupkg.sha512",
     "C:\\Users\\dungh\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\dungh\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\dungh\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.5.0\\runtime.native.system.data.sqlclient.sni.4.5.0.nupkg.sha512",
     "C:\\Users\\dungh\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\dungh\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

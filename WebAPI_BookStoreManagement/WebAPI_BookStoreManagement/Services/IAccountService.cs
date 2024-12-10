@@ -10,5 +10,6 @@ namespace WebAPI_BookStoreManagement.Services
         Task UpdateAccountAsync(Account account);
         Task DeleteAccountAsync(string username);
         Task<Account> LoginAsync(string username, string password);
+        Task<IEnumerable<Account>> SearchByUsername(string username);
     }
 }

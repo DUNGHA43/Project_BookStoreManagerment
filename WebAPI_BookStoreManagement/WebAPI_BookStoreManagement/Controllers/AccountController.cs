@@ -26,7 +26,7 @@ namespace WebAPI_BookStoreManagement.Controllers
         [HttpGet("{username}")]
         public async Task<IActionResult> GetAccountByUsernameAsync(string username)
         {
-            var account = await _accountService.GetAccountByUsernameAsync(username);
+            var account = await _accountService.SearchByUsername(username);
 
             if(account == null)
             {
@@ -75,7 +75,6 @@ namespace WebAPI_BookStoreManagement.Controllers
             if(existingAccount == null)
                 return NotFound($"Account with Username {username} not found!");
 
-            existingAccount.username = accountDTO.username ?? existingAccount.username;
             existingAccount.passw = accountDTO.passw ?? existingAccount.passw;
             existingAccount.roleacc = accountDTO.roleacc ?? existingAccount.roleacc;
             existingAccount.idstaff = accountDTO.idstaff ?? existingAccount.idstaff;
