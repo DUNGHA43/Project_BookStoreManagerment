@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\webapi_bookstoremanagement\\webapi_bookstoremanagement\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|solutionrelative:webapi_bookstoremanagement\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\webapi_bookstoremanagement\\webapi_bookstoremanagement\\controllers\\bookreceiptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|solutionrelative:webapi_bookstoremanagement\\controllers\\bookreceiptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\webapi_bookstoremanagement\\webapi_bookstoremanagement\\services\\staffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|solutionrelative:webapi_bookstoremanagement\\services\\staffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\webapi_bookstoremanagement\\webapi_bookstoremanagement\\services\\istaffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|solutionrelative:webapi_bookstoremanagement\\services\\istaffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\webapi_bookstoremanagement\\webapi_bookstoremanagement\\services\\bookreceiptservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|solutionrelative:webapi_bookstoremanagement\\services\\bookreceiptservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\webapi_bookstoremanagement\\webapi_bookstoremanagement\\data\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,60 +19,16 @@
       "RelativeMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|solutionrelative:webapi_bookstoremanagement\\data\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\webapi_bookstoremanagement\\webapi_bookstoremanagement\\data\\repositories\\staffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|solutionrelative:webapi_bookstoremanagement\\data\\repositories\\staffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\webapi_bookstoremanagement\\webapi_bookstoremanagement\\data\\repositories\\bookreceiptrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|solutionrelative:webapi_bookstoremanagement\\data\\repositories\\bookreceiptrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\webapi_bookstoremanagement\\webapi_bookstoremanagement\\data\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|solutionrelative:webapi_bookstoremanagement\\data\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\webapi_bookstoremanagement\\webapi_bookstoremanagement\\data\\repositories\\istaffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|solutionrelative:webapi_bookstoremanagement\\data\\repositories\\istaffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\webapi_bookstoremanagement\\webapi_bookstoremanagement\\data\\repositories\\ibookreceiptrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|solutionrelative:webapi_bookstoremanagement\\data\\repositories\\ibookreceiptrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\webapi_bookstoremanagement\\webapi_bookstoremanagement\\data\\repositories\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|solutionrelative:webapi_bookstoremanagement\\data\\repositories\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\webapi_bookstoremanagement\\webapi_bookstoremanagement\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|solutionrelative:webapi_bookstoremanagement\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\webapi_bookstoremanagement\\webapi_bookstoremanagement\\dto\\staffdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|solutionrelative:webapi_bookstoremanagement\\dto\\staffdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\webapi_bookstoremanagement\\webapi_bookstoremanagement\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|solutionrelative:webapi_bookstoremanagement\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\webapi_bookstoremanagement\\webapi_bookstoremanagement\\services\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|solutionrelative:webapi_bookstoremanagement\\services\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\webapi_bookstoremanagement\\webapi_bookstoremanagement\\controllers\\bookinvoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|solutionrelative:webapi_bookstoremanagement\\controllers\\bookinvoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\webapi_bookstoremanagement\\webapi_bookstoremanagement\\data\\repositories\\bookreceiptdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|solutionrelative:webapi_bookstoremanagement\\data\\repositories\\bookreceiptdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\webapi_bookstoremanagement\\webapi_bookstoremanagement\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|solutionrelative:webapi_bookstoremanagement\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\webapi_bookstoremanagement\\webapi_bookstoremanagement\\data\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|solutionrelative:webapi_bookstoremanagement\\data\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\webapi_bookstoremanagement\\webapi_bookstoremanagement\\data\\repositories\\bookinvoicedetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|solutionrelative:webapi_bookstoremanagement\\data\\repositories\\bookinvoicedetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\webapi_bookstoremanagement\\webapi_bookstoremanagement\\data\\repositories\\ibookinvoicedetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{234D724F-E023-4642-B12C-4660E2FD3F78}|WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement.csproj|solutionrelative:webapi_bookstoremanagement\\data\\repositories\\ibookinvoicedetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -95,240 +47,93 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "StaffController.cs",
-              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Controllers\\StaffController.cs",
-              "RelativeDocumentMoniker": "WebAPI_BookStoreManagement\\Controllers\\StaffController.cs",
-              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Controllers\\StaffController.cs",
-              "RelativeToolTip": "WebAPI_BookStoreManagement\\Controllers\\StaffController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAwDoAAAAfAAAAAAAAAA==",
+              "Title": "BookReceiptController.cs",
+              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Controllers\\BookReceiptController.cs",
+              "RelativeDocumentMoniker": "WebAPI_BookStoreManagement\\Controllers\\BookReceiptController.cs",
+              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Controllers\\BookReceiptController.cs",
+              "RelativeToolTip": "WebAPI_BookStoreManagement\\Controllers\\BookReceiptController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAuwDEAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T05:39:07.824Z",
+              "WhenOpened": "2024-12-11T15:22:04.408Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "StaffService.cs",
-              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Services\\StaffService.cs",
-              "RelativeDocumentMoniker": "WebAPI_BookStoreManagement\\Services\\StaffService.cs",
-              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Services\\StaffService.cs",
-              "RelativeToolTip": "WebAPI_BookStoreManagement\\Services\\StaffService.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAuwCoAAABDAAAAAAAAAA==",
+              "Title": "BookReceiptServices.cs",
+              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Services\\BookReceiptServices.cs",
+              "RelativeDocumentMoniker": "WebAPI_BookStoreManagement\\Services\\BookReceiptServices.cs",
+              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Services\\BookReceiptServices.cs",
+              "RelativeToolTip": "WebAPI_BookStoreManagement\\Services\\BookReceiptServices.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwCkAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T05:38:11.923Z",
+              "WhenOpened": "2024-12-11T15:21:24.058Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IStaffService.cs",
-              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Services\\IStaffService.cs",
-              "RelativeDocumentMoniker": "WebAPI_BookStoreManagement\\Services\\IStaffService.cs",
-              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Services\\IStaffService.cs",
-              "RelativeToolTip": "WebAPI_BookStoreManagement\\Services\\IStaffService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABFAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "BookReceiptRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Data\\Repositories\\BookReceiptRepository.cs",
+              "RelativeDocumentMoniker": "WebAPI_BookStoreManagement\\Data\\Repositories\\BookReceiptRepository.cs",
+              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Data\\Repositories\\BookReceiptRepository.cs",
+              "RelativeToolTip": "WebAPI_BookStoreManagement\\Data\\Repositories\\BookReceiptRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T05:37:22.498Z",
+              "WhenOpened": "2024-12-11T15:16:12.947Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "AccountRepository.cs",
-              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Data\\Repositories\\AccountRepository.cs",
-              "RelativeDocumentMoniker": "WebAPI_BookStoreManagement\\Data\\Repositories\\AccountRepository.cs",
-              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Data\\Repositories\\AccountRepository.cs",
-              "RelativeToolTip": "WebAPI_BookStoreManagement\\Data\\Repositories\\AccountRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T05:32:24.488Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "StaffRepository.cs",
-              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Data\\Repositories\\StaffRepository.cs",
-              "RelativeDocumentMoniker": "WebAPI_BookStoreManagement\\Data\\Repositories\\StaffRepository.cs",
-              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Data\\Repositories\\StaffRepository.cs",
-              "RelativeToolTip": "WebAPI_BookStoreManagement\\Data\\Repositories\\StaffRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T05:32:03.499Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IStaffRepository.cs",
-              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Data\\Repositories\\IStaffRepository.cs",
-              "RelativeDocumentMoniker": "WebAPI_BookStoreManagement\\Data\\Repositories\\IStaffRepository.cs",
-              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Data\\Repositories\\IStaffRepository.cs",
-              "RelativeToolTip": "WebAPI_BookStoreManagement\\Data\\Repositories\\IStaffRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T05:29:18.635Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "IAccountRepository.cs",
               "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Data\\Repositories\\IAccountRepository.cs",
               "RelativeDocumentMoniker": "WebAPI_BookStoreManagement\\Data\\Repositories\\IAccountRepository.cs",
               "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Data\\Repositories\\IAccountRepository.cs",
               "RelativeToolTip": "WebAPI_BookStoreManagement\\Data\\Repositories\\IAccountRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T08:28:57.104Z",
+              "WhenOpened": "2024-12-11T15:15:39.164Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IAccountService.cs",
-              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Services\\IAccountService.cs",
-              "RelativeDocumentMoniker": "WebAPI_BookStoreManagement\\Services\\IAccountService.cs",
-              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Services\\IAccountService.cs",
-              "RelativeToolTip": "WebAPI_BookStoreManagement\\Services\\IAccountService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAxAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "IBookReceiptRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Data\\Repositories\\IBookReceiptRepository.cs",
+              "RelativeDocumentMoniker": "WebAPI_BookStoreManagement\\Data\\Repositories\\IBookReceiptRepository.cs",
+              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Data\\Repositories\\IBookReceiptRepository.cs",
+              "RelativeToolTip": "WebAPI_BookStoreManagement\\Data\\Repositories\\IBookReceiptRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T13:41:34.332Z"
+              "WhenOpened": "2024-12-11T15:14:18.429Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CategoryService.cs",
-              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Services\\CategoryService.cs",
-              "RelativeDocumentMoniker": "WebAPI_BookStoreManagement\\Services\\CategoryService.cs",
-              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Services\\CategoryService.cs",
-              "RelativeToolTip": "WebAPI_BookStoreManagement\\Services\\CategoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T13:41:31.961Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Data\\Repositories\\Repository.cs",
-              "RelativeDocumentMoniker": "WebAPI_BookStoreManagement\\Data\\Repositories\\Repository.cs",
-              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Data\\Repositories\\Repository.cs",
-              "RelativeToolTip": "WebAPI_BookStoreManagement\\Data\\Repositories\\Repository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T13:31:04.458Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Data\\UnitOfWork\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "WebAPI_BookStoreManagement\\Data\\UnitOfWork\\IUnitOfWork.cs",
               "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Data\\UnitOfWork\\IUnitOfWork.cs",
               "RelativeToolTip": "WebAPI_BookStoreManagement\\Data\\UnitOfWork\\IUnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T08:47:40.303Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Data\\UnitOfWork\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "WebAPI_BookStoreManagement\\Data\\UnitOfWork\\UnitOfWork.cs",
               "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Data\\UnitOfWork\\UnitOfWork.cs",
               "RelativeToolTip": "WebAPI_BookStoreManagement\\Data\\UnitOfWork\\UnitOfWork.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAkwCAAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAcwCcAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T08:47:53.682Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "BookReceiptDetailRepository.cs",
-              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Data\\Repositories\\BookReceiptDetailRepository.cs",
-              "RelativeDocumentMoniker": "WebAPI_BookStoreManagement\\Data\\Repositories\\BookReceiptDetailRepository.cs",
-              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Data\\Repositories\\BookReceiptDetailRepository.cs",
-              "RelativeToolTip": "WebAPI_BookStoreManagement\\Data\\Repositories\\BookReceiptDetailRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T13:41:38.504Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "BookInvoiceController.cs",
-              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Controllers\\BookInvoiceController.cs",
-              "RelativeDocumentMoniker": "WebAPI_BookStoreManagement\\Controllers\\BookInvoiceController.cs",
-              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Controllers\\BookInvoiceController.cs",
-              "RelativeToolTip": "WebAPI_BookStoreManagement\\Controllers\\BookInvoiceController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAcwCsAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T13:41:41.83Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "WebAPI_BookStoreManagement\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "WebAPI_BookStoreManagement\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAowEwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T08:50:20.047Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AccountService.cs",
-              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Services\\AccountService.cs",
-              "RelativeDocumentMoniker": "WebAPI_BookStoreManagement\\Services\\AccountService.cs",
-              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Services\\AccountService.cs",
-              "RelativeToolTip": "WebAPI_BookStoreManagement\\Services\\AccountService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T08:48:15.422Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "StaffDTO.cs",
-              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\DTO\\StaffDTO.cs",
-              "RelativeDocumentMoniker": "WebAPI_BookStoreManagement\\DTO\\StaffDTO.cs",
-              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\DTO\\StaffDTO.cs",
-              "RelativeToolTip": "WebAPI_BookStoreManagement\\DTO\\StaffDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T15:21:09.033Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "BookInvoiceDetailRepository.cs",
-              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Data\\Repositories\\BookInvoiceDetailRepository.cs",
-              "RelativeDocumentMoniker": "WebAPI_BookStoreManagement\\Data\\Repositories\\BookInvoiceDetailRepository.cs",
-              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Data\\Repositories\\BookInvoiceDetailRepository.cs",
-              "RelativeToolTip": "WebAPI_BookStoreManagement\\Data\\Repositories\\BookInvoiceDetailRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T08:44:52.96Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IBookInvoiceDetailRepository.cs",
-              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Data\\Repositories\\IBookInvoiceDetailRepository.cs",
-              "RelativeDocumentMoniker": "WebAPI_BookStoreManagement\\Data\\Repositories\\IBookInvoiceDetailRepository.cs",
-              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\WebAPI_BookStoreManagement\\WebAPI_BookStoreManagement\\Data\\Repositories\\IBookInvoiceDetailRepository.cs",
-              "RelativeToolTip": "WebAPI_BookStoreManagement\\Data\\Repositories\\IBookInvoiceDetailRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T08:26:57.772Z"
             }
           ]
         }

@@ -11,7 +11,7 @@ namespace WebAPI_BookStoreManagement.Data.UnitOfWork
         IRepository<Publisher> Publisher { get; }
         IRepository<Author> Author { get; }
         IRepository<Book> Books { get; }
-        IRepository<BookReceipt> BooksReceipt { get; }
+        IBookReceiptRepository BooksReceipt { get; }
         IBookReceiptDetailRepository BookReceiptDetail { get; }
         IRepository<BookInvoice> BookInvoice { get; }
         IBookInvoiceDetailRepository BookInvoiceDetail { get; }

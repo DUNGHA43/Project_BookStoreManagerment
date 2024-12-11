@@ -37,6 +37,11 @@ namespace WebAPI_BookStoreManagement.Services
             return await _unitOfWork.BooksReceipt.GetByIdAsync(id);
         }
 
+        public async Task<IEnumerable<BookReceipt>> SearchBookReceiptsById(string id)
+        {
+            return await _unitOfWork.BooksReceipt.SearchBookReceiptsByIdAsync(id);
+        }
+
         public async Task UpdateBookReceiptAsync(BookReceipt bookreceipt)
         {
             _unitOfWork.BooksReceipt.UpdateAsync(bookreceipt);

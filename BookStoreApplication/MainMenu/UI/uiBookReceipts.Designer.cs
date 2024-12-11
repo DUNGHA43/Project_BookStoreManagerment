@@ -83,6 +83,7 @@
             btnSearch.TabIndex = 0;
             btnSearch.Text = "Tìm kiếm";
             btnSearch.UseVisualStyleBackColor = true;
+            btnSearch.Click += btnSearch_Click;
             // 
             // panel1
             // 
@@ -138,6 +139,7 @@
             btnAdd.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             btnAdd.ItemAppearance.Normal.Options.UseFont = true;
             btnAdd.Name = "btnAdd";
+            btnAdd.ItemClick += btnAdd_ItemClick;
             // 
             // btnUpdate
             // 
@@ -148,6 +150,7 @@
             btnUpdate.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             btnUpdate.ItemAppearance.Normal.Options.UseFont = true;
             btnUpdate.Name = "btnUpdate";
+            btnUpdate.ItemClick += btnUpdate_ItemClick;
             // 
             // btnDelete
             // 
@@ -158,6 +161,7 @@
             btnDelete.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             btnDelete.ItemAppearance.Normal.Options.UseFont = true;
             btnDelete.Name = "btnDelete";
+            btnDelete.ItemClick += btnDelete_ItemClick;
             // 
             // btnSave
             // 
@@ -168,6 +172,7 @@
             btnSave.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             btnSave.ItemAppearance.Normal.Options.UseFont = true;
             btnSave.Name = "btnSave";
+            btnSave.ItemClick += btnSave_ItemClick;
             // 
             // btnCancel
             // 
@@ -178,6 +183,7 @@
             btnCancel.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             btnCancel.ItemAppearance.Normal.Options.UseFont = true;
             btnCancel.Name = "btnCancel";
+            btnCancel.ItemClick += btnCancel_ItemClick;
             // 
             // btnDetail
             // 
@@ -237,7 +243,10 @@
             // 
             gvBookReceipts.GridControl = gcBookReceipts;
             gvBookReceipts.Name = "gvBookReceipts";
+            gvBookReceipts.OptionsBehavior.Editable = false;
+            gvBookReceipts.OptionsBehavior.ReadOnly = true;
             gvBookReceipts.OptionsView.ShowGroupPanel = false;
+            gvBookReceipts.RowClick += gvBookReceipts_RowClick;
             // 
             // gcBookReceipts
             // 
@@ -271,6 +280,7 @@
             txtTotal.ForeColor = System.Drawing.Color.Red;
             txtTotal.Location = new System.Drawing.Point(695, 50);
             txtTotal.Name = "txtTotal";
+            txtTotal.ReadOnly = true;
             txtTotal.Size = new System.Drawing.Size(177, 22);
             txtTotal.TabIndex = 12;
             txtTotal.Text = "0";

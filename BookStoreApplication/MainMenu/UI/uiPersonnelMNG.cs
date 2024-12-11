@@ -72,7 +72,7 @@ namespace GUI.UI
             if (this.Parent != null)
             {
                 this.Parent.Controls.Remove(this);
-                this.Parent.Dispose();
+                this.Dispose();
             }
         }
 

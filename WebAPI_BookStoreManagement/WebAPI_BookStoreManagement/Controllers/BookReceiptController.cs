@@ -27,7 +27,7 @@ namespace WebAPI_BookStoreManagement.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> GetBookReceiptByIdAsync(string id)
         {
-            var bookreceipt = await _bookReceiptServices.GetBookReceiptById(id);
+            var bookreceipt = await _bookReceiptServices.SearchBookReceiptsById(id);
 
             if (bookreceipt == null)
                 return NotFound();

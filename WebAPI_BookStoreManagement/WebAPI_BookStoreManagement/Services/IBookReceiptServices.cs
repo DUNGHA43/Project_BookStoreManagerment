@@ -9,5 +9,6 @@ namespace WebAPI_BookStoreManagement.Services
         Task AddBookReceiptAsync(BookReceipt bookreceipt);
         Task UpdateBookReceiptAsync(BookReceipt bookreceipt);
         Task DeleteBookReceiptAsync(string id);
+        Task<IEnumerable<BookReceipt>> SearchBookReceiptsById(string id);
     }
 }
