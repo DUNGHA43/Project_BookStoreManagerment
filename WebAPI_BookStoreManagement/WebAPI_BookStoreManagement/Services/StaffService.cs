@@ -38,6 +38,11 @@ namespace WebAPI_BookStoreManagement.Services
             return await _unitOfWork.Staff.GetByIdAsync(id);
         }
 
+        public async Task<IEnumerable<Staff>> SearchStaffByNameAsync(string name)
+        {
+            return await _unitOfWork.Staff.SearchByNameAsync(name);
+        }
+
         public async Task UpdateStaffAsync(Staff staff)
         {
             _unitOfWork.Staff.UpdateAsync(staff);

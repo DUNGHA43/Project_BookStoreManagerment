@@ -6,7 +6,7 @@ namespace WebAPI_BookStoreManagement.Data.UnitOfWork
     public interface IUnitOfWork : IDisposable
     {
         IAccountRepository Account { get; }
-        IRepository<Staff> Staff { get; }
+        IStaffRepository Staff { get; }
         IRepository<Category> Categories { get; }
         IRepository<Publisher> Publisher { get; }
         IRepository<Author> Author { get; }

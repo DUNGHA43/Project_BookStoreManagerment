@@ -10,7 +10,7 @@ namespace WebAPI_BookStoreManagement.Data.UnitOfWork
 
         public IAccountRepository Account { get; private set; }
 
-        public IRepository<Staff> Staff { get; private set; }
+        public IStaffRepository Staff { get; private set; }
 
         public IRepository<Category> Categories { get; private set; }
 
@@ -32,7 +32,7 @@ namespace WebAPI_BookStoreManagement.Data.UnitOfWork
         {
             _context = context;
             Account = new AccountRepository(_context);
-            Staff = new Repository<Staff>(_context);
+            Staff = new StaffRepository(_context);
             Categories = new Repository<Category>(_context);
             Publisher = new Repository<Publisher>(_context);
             Author = new Repository<Author>(_context);

@@ -24,10 +24,10 @@ namespace WebAPI_BookStoreManagement.Controllers
             return Ok(staff);
         }
 
-        [HttpGet("{id}")]
-        public async Task<IActionResult> GetStaffById(string id)
+        [HttpGet("{name}")]
+        public async Task<IActionResult> GetStaffByName(string name)
         {
-            var staff = await _staffService.GetStaffByIdAsync(id);
+            var staff = await _staffService.SearchStaffByNameAsync(name);
             if (staff == null)
             {
                 return NotFound();
@@ -56,7 +56,7 @@ namespace WebAPI_BookStoreManagement.Controllers
 
             await _staffService.AddStaffAsync(staff);
 
-            return CreatedAtAction(nameof(GetStaffById), new { id = staff.id }, staff);
+            return NoContent();
         }
 
         [HttpPut("{id}")]

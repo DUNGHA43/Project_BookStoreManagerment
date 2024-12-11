@@ -48,11 +48,19 @@ namespace GUI
                 var userAccount = await _accountBLL.LoginApp(username, password);
                 if(username.Trim().Equals(userAccount.username.Trim()) && password.Trim().Equals(userAccount.passw.Trim())) 
                 {
-                    MessageBox.Show($"Xin chào, {userAccount.username}");
-                    frmMainMenu mainMenu = new frmMainMenu(userAccount.username, userAccount.roleacc);
-                    this.Hide();
-                    mainMenu.ShowDialog();
-                    this.Close();
+                    if ("Quản lý".Equals(userAccount.roleacc.ToString()))
+                    {
+                        MessageBox.Show($"Đăng nhập thành công!");
+                        frmMainMenu mainMenu = new frmMainMenu(userAccount.username, userAccount.roleacc);
+                        this.Hide();
+                        mainMenu.ShowDialog();
+                        this.Close();
+                    }
+                    else
+                    {
+                        MessageBox.Show($"Chưa phát triển tính năng cho nhân viên!");
+                    }
+                    
                 }
                 else
                 {

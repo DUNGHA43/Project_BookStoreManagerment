@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{03865401-D1CA-4876-8D5A-B1A020D4C0A2}|MainMenu\\GUI.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\bookstoreapplication\\mainmenu\\ui\\uiaccountsmng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03865401-D1CA-4876-8D5A-B1A020D4C0A2}|MainMenu\\GUI.csproj|solutionrelative:mainmenu\\ui\\uiaccountsmng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DD14157-008D-4DF0-A8AF-576CC6F132AA}|BLL\\BLL.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\bookstoreapplication\\bll\\accountbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DD14157-008D-4DF0-A8AF-576CC6F132AA}|BLL\\BLL.csproj|solutionrelative:bll\\accountbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03865401-D1CA-4876-8D5A-B1A020D4C0A2}|MainMenu\\GUI.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\bookstoreapplication\\mainmenu\\ui\\uipersonnelmng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03865401-D1CA-4876-8D5A-B1A020D4C0A2}|MainMenu\\GUI.csproj|solutionrelative:mainmenu\\ui\\uipersonnelmng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8C021657-18D9-461B-B9AD-DDE1BAE0A8E6}|DAL\\DAL.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\bookstoreapplication\\dal\\staffdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C021657-18D9-461B-B9AD-DDE1BAE0A8E6}|DAL\\DAL.csproj|solutionrelative:dal\\staffdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C021657-18D9-461B-B9AD-DDE1BAE0A8E6}|DAL\\DAL.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\bookstoreapplication\\dal\\accountdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C021657-18D9-461B-B9AD-DDE1BAE0A8E6}|DAL\\DAL.csproj|solutionrelative:dal\\accountdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03865401-D1CA-4876-8D5A-B1A020D4C0A2}|MainMenu\\GUI.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\bookstoreapplication\\mainmenu\\ui\\uipersonnelmng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{03865401-D1CA-4876-8D5A-B1A020D4C0A2}|MainMenu\\GUI.csproj|solutionrelative:mainmenu\\ui\\uipersonnelmng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03865401-D1CA-4876-8D5A-B1A020D4C0A2}|MainMenu\\GUI.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\bookstoreapplication\\mainmenu\\ui\\uiaccountsmng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{03865401-D1CA-4876-8D5A-B1A020D4C0A2}|MainMenu\\GUI.csproj|solutionrelative:mainmenu\\ui\\uiaccountsmng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C9D0B5C7-8101-48E2-B3DF-1032F4F6B78F}|DTO\\DTO.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\bookstoreapplication\\dto\\staffdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9D0B5C7-8101-48E2-B3DF-1032F4F6B78F}|DTO\\DTO.csproj|solutionrelative:dto\\staffdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9D0B5C7-8101-48E2-B3DF-1032F4F6B78F}|DTO\\DTO.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\bookstoreapplication\\dto\\accountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9D0B5C7-8101-48E2-B3DF-1032F4F6B78F}|DTO\\DTO.csproj|solutionrelative:dto\\accountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03865401-D1CA-4876-8D5A-B1A020D4C0A2}|MainMenu\\GUI.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\bookstoreapplication\\mainmenu\\ui\\uiaccountsmng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03865401-D1CA-4876-8D5A-B1A020D4C0A2}|MainMenu\\GUI.csproj|solutionrelative:mainmenu\\ui\\uiaccountsmng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD14157-008D-4DF0-A8AF-576CC6F132AA}|BLL\\BLL.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\bookstoreapplication\\bll\\staffbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DD14157-008D-4DF0-A8AF-576CC6F132AA}|BLL\\BLL.csproj|solutionrelative:bll\\staffbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,64 +42,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StaffDAL.cs",
-              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\DAL\\StaffDAL.cs",
-              "RelativeDocumentMoniker": "DAL\\StaffDAL.cs",
-              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\DAL\\StaffDAL.cs",
-              "RelativeToolTip": "DAL\\StaffDAL.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T16:29:49.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AccountDAL.cs",
-              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\DAL\\AccountDAL.cs",
-              "RelativeDocumentMoniker": "DAL\\AccountDAL.cs",
-              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\DAL\\AccountDAL.cs",
-              "RelativeToolTip": "DAL\\AccountDAL.cs",
-              "ViewState": "AgIAAJsAAAAAAAAAAAAAwKMAAAAIAAAAAAAAAA==",
+              "Title": "StaffDTO.cs",
+              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\DTO\\StaffDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\StaffDTO.cs",
+              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\DTO\\StaffDTO.cs",
+              "RelativeToolTip": "DTO\\StaffDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T15:48:12.036Z",
+              "WhenOpened": "2024-12-11T06:41:12.841Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AccountBLL.cs",
-              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\BLL\\AccountBLL.cs",
-              "RelativeDocumentMoniker": "BLL\\AccountBLL.cs",
-              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\BLL\\AccountBLL.cs",
-              "RelativeToolTip": "BLL\\AccountBLL.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAkwCgAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "uiPersonnelMNG.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\MainMenu\\UI\\uiPersonnelMNG.cs",
+              "RelativeDocumentMoniker": "MainMenu\\UI\\uiPersonnelMNG.cs",
+              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\MainMenu\\UI\\uiPersonnelMNG.cs [Design]",
+              "RelativeToolTip": "MainMenu\\UI\\uiPersonnelMNG.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T14:35:20.468Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "uiAccountsMNG.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\MainMenu\\UI\\uiAccountsMNG.cs",
-              "RelativeDocumentMoniker": "MainMenu\\UI\\uiAccountsMNG.cs",
-              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\MainMenu\\UI\\uiAccountsMNG.cs [Design]",
-              "RelativeToolTip": "MainMenu\\UI\\uiAccountsMNG.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T14:10:34.807Z",
+              "WhenOpened": "2024-12-11T06:25:30.273Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "uiPersonnelMNG.cs",
+              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\MainMenu\\UI\\uiPersonnelMNG.cs",
+              "RelativeDocumentMoniker": "MainMenu\\UI\\uiPersonnelMNG.cs",
+              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\MainMenu\\UI\\uiPersonnelMNG.cs",
+              "RelativeToolTip": "MainMenu\\UI\\uiPersonnelMNG.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAtwEoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T06:03:29.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "uiAccountsMNG.cs",
               "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\MainMenu\\UI\\uiAccountsMNG.cs",
               "RelativeDocumentMoniker": "MainMenu\\UI\\uiAccountsMNG.cs",
               "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\MainMenu\\UI\\uiAccountsMNG.cs",
               "RelativeToolTip": "MainMenu\\UI\\uiAccountsMNG.cs",
-              "ViewState": "AgIAAKYAAAAAAAAAAADwv7oAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAgwHUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T14:04:19.861Z",
               "EditorCaption": ""
@@ -107,14 +94,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "AccountDTO.cs",
-              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\DTO\\AccountDTO.cs",
-              "RelativeDocumentMoniker": "DTO\\AccountDTO.cs",
-              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\DTO\\AccountDTO.cs",
-              "RelativeToolTip": "DTO\\AccountDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Title": "StaffBLL.cs",
+              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\BLL\\StaffBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\StaffBLL.cs",
+              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\BLL\\StaffBLL.cs",
+              "RelativeToolTip": "BLL\\StaffBLL.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAgwBgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T14:34:35.866Z"
+              "WhenOpened": "2024-12-11T06:00:45.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StaffDAL.cs",
+              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\DAL\\StaffDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\StaffDAL.cs",
+              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\DAL\\StaffDAL.cs",
+              "RelativeToolTip": "DAL\\StaffDAL.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAwFgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T16:29:49.931Z",
+              "EditorCaption": ""
             }
           ]
         }

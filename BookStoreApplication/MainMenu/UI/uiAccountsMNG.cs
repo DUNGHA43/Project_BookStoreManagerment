@@ -53,8 +53,8 @@ namespace GUI.UI
             {
                 txtNameAcc.Text = selectRow.username;
                 txtPassAcc.Text = selectRow.passw;
-                cbxPosition.Text = selectRow.roleacc;
-                cbxStaff.Text = selectRow.idstaff;
+                cbxPosition.Text = selectRow.roleacc; 
+                cbxStaff.SelectedValue = selectRow.idstaff;
             }
         }
 

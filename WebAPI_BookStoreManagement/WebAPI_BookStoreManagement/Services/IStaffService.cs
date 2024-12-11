@@ -9,5 +9,6 @@ namespace WebAPI_BookStoreManagement.Services
         Task AddStaffAsync(Staff staff);
         Task UpdateStaffAsync(Staff staff);
         Task DeleteStaffAsync(string id);
+        Task<IEnumerable<Staff>> SearchStaffByNameAsync(string name);
     }
 }

@@ -707,22 +707,6 @@
   },
   {
     "ContainingType": "WebAPI_BookStoreManagement.Controllers.StaffController",
-    "Method": "GetStaffById",
-    "RelativePath": "api/Staff/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebAPI_BookStoreManagement.Controllers.StaffController",
     "Method": "UpdateStaff",
     "RelativePath": "api/Staff/{id}",
     "HttpMethod": "PUT",
@@ -752,6 +736,22 @@
     "Parameters": [
       {
         "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI_BookStoreManagement.Controllers.StaffController",
+    "Method": "GetStaffByName",
+    "RelativePath": "api/Staff/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
         "Type": "System.String",
         "IsRequired": true
       }

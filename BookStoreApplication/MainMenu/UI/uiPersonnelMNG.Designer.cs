@@ -43,6 +43,8 @@
             barDockControlLeft = new DevExpress.XtraBars.BarDockControl();
             barDockControlRight = new DevExpress.XtraBars.BarDockControl();
             groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            txtID = new DevExpress.XtraEditors.TextEdit();
+            label7 = new System.Windows.Forms.Label();
             txtAddress = new System.Windows.Forms.RichTextBox();
             txtBirth = new DevExpress.XtraEditors.DateEdit();
             txtIdentification = new DevExpress.XtraEditors.TextEdit();
@@ -61,11 +63,10 @@
             panel1 = new System.Windows.Forms.Panel();
             txtSearch = new DevExpress.XtraEditors.TextEdit();
             btnSearch = new System.Windows.Forms.Button();
-            txtID = new DevExpress.XtraEditors.TextEdit();
-            label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)barManager1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)groupControl1).BeginInit();
             groupControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)txtID.Properties).BeginInit();
             ((System.ComponentModel.ISupportInitialize)txtBirth.Properties).BeginInit();
             ((System.ComponentModel.ISupportInitialize)txtBirth.Properties.CalendarTimeProperties).BeginInit();
             ((System.ComponentModel.ISupportInitialize)txtIdentification.Properties).BeginInit();
@@ -78,7 +79,6 @@
             ((System.ComponentModel.ISupportInitialize)gvStaff).BeginInit();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)txtSearch.Properties).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)txtID.Properties).BeginInit();
             SuspendLayout();
             // 
             // barManager1
@@ -113,6 +113,7 @@
             btnAdd.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             btnAdd.ItemAppearance.Normal.Options.UseFont = true;
             btnAdd.Name = "btnAdd";
+            btnAdd.ItemClick += btnAdd_ItemClick;
             // 
             // btnUpdate
             // 
@@ -123,6 +124,7 @@
             btnUpdate.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             btnUpdate.ItemAppearance.Normal.Options.UseFont = true;
             btnUpdate.Name = "btnUpdate";
+            btnUpdate.ItemClick += btnUpdate_ItemClick;
             // 
             // btnDelete
             // 
@@ -133,6 +135,7 @@
             btnDelete.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             btnDelete.ItemAppearance.Normal.Options.UseFont = true;
             btnDelete.Name = "btnDelete";
+            btnDelete.ItemClick += btnDelete_ItemClick;
             // 
             // btnSave
             // 
@@ -143,6 +146,7 @@
             btnSave.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             btnSave.ItemAppearance.Normal.Options.UseFont = true;
             btnSave.Name = "btnSave";
+            btnSave.ItemClick += btnSave_ItemClick;
             // 
             // btnCancel
             // 
@@ -153,6 +157,7 @@
             btnCancel.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             btnCancel.ItemAppearance.Normal.Options.UseFont = true;
             btnCancel.Name = "btnCancel";
+            btnCancel.ItemClick += btnCancel_ItemClick;
             // 
             // btnClose
             // 
@@ -163,6 +168,7 @@
             btnClose.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             btnClose.ItemAppearance.Normal.Options.UseFont = true;
             btnClose.Name = "btnClose";
+            btnClose.ItemClick += btnClose_ItemClick;
             // 
             // barDockControlTop
             // 
@@ -221,6 +227,29 @@
             groupControl1.TabIndex = 4;
             groupControl1.Text = "THÔNG TIN NHÂN VIÊN";
             // 
+            // txtID
+            // 
+            txtID.Anchor = System.Windows.Forms.AnchorStyles.None;
+            txtID.Location = new System.Drawing.Point(138, 108);
+            txtID.MenuManager = barManager1;
+            txtID.Name = "txtID";
+            txtID.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            txtID.Properties.Appearance.Options.UseFont = true;
+            txtID.Size = new System.Drawing.Size(143, 22);
+            txtID.TabIndex = 14;
+            // 
+            // label7
+            // 
+            label7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            label7.AutoSize = true;
+            label7.BackColor = System.Drawing.Color.Transparent;
+            label7.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            label7.Location = new System.Drawing.Point(40, 111);
+            label7.Name = "label7";
+            label7.Size = new System.Drawing.Size(94, 17);
+            label7.TabIndex = 13;
+            label7.Text = "Mã nhân viên:";
+            // 
             // txtAddress
             // 
             txtAddress.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -234,7 +263,7 @@
             // txtBirth
             // 
             txtBirth.Anchor = System.Windows.Forms.AnchorStyles.None;
-            txtBirth.EditValue = null;
+            txtBirth.EditValue = new System.DateTime(2024, 12, 11, 13, 42, 49, 20);
             txtBirth.Location = new System.Drawing.Point(138, 76);
             txtBirth.MenuManager = barManager1;
             txtBirth.Name = "txtBirth";
@@ -389,7 +418,10 @@
             // 
             gvStaff.GridControl = gcStaff;
             gvStaff.Name = "gvStaff";
+            gvStaff.OptionsBehavior.Editable = false;
+            gvStaff.OptionsBehavior.ReadOnly = true;
             gvStaff.OptionsView.ShowGroupPanel = false;
+            gvStaff.RowClick += gvStaff_RowClick;
             // 
             // panel1
             // 
@@ -422,29 +454,7 @@
             btnSearch.TabIndex = 0;
             btnSearch.Text = "Tìm kiếm";
             btnSearch.UseVisualStyleBackColor = true;
-            // 
-            // txtID
-            // 
-            txtID.Anchor = System.Windows.Forms.AnchorStyles.None;
-            txtID.Location = new System.Drawing.Point(138, 108);
-            txtID.MenuManager = barManager1;
-            txtID.Name = "txtID";
-            txtID.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            txtID.Properties.Appearance.Options.UseFont = true;
-            txtID.Size = new System.Drawing.Size(143, 22);
-            txtID.TabIndex = 14;
-            // 
-            // label7
-            // 
-            label7.Anchor = System.Windows.Forms.AnchorStyles.None;
-            label7.AutoSize = true;
-            label7.BackColor = System.Drawing.Color.Transparent;
-            label7.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            label7.Location = new System.Drawing.Point(40, 111);
-            label7.Name = "label7";
-            label7.Size = new System.Drawing.Size(94, 17);
-            label7.TabIndex = 13;
-            label7.Text = "Mã nhân viên:";
+            btnSearch.Click += btnSearch_Click;
             // 
             // uiPersonnelMNG
             // 
@@ -462,6 +472,7 @@
             ((System.ComponentModel.ISupportInitialize)groupControl1).EndInit();
             groupControl1.ResumeLayout(false);
             groupControl1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)txtID.Properties).EndInit();
             ((System.ComponentModel.ISupportInitialize)txtBirth.Properties.CalendarTimeProperties).EndInit();
             ((System.ComponentModel.ISupportInitialize)txtBirth.Properties).EndInit();
             ((System.ComponentModel.ISupportInitialize)txtIdentification.Properties).EndInit();
@@ -474,7 +485,6 @@
             ((System.ComponentModel.ISupportInitialize)gvStaff).EndInit();
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)txtSearch.Properties).EndInit();
-            ((System.ComponentModel.ISupportInitialize)txtID.Properties).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
