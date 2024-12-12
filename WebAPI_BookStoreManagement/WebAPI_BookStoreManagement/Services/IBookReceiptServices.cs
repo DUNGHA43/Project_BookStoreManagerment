@@ -10,5 +10,6 @@ namespace WebAPI_BookStoreManagement.Services
         Task UpdateBookReceiptAsync(BookReceipt bookreceipt);
         Task DeleteBookReceiptAsync(string id);
         Task<IEnumerable<BookReceipt>> SearchBookReceiptsById(string id);
+        Task<decimal?> CalculateReceiptTotalAsync(string id);
     }
 }

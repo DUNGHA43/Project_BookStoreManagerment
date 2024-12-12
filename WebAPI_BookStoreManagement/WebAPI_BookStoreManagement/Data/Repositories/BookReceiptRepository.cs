@@ -13,6 +13,15 @@ namespace WebAPI_BookStoreManagement.Data.Repositories
             _context = context;
         }
 
+        public async Task<decimal?> CalculateReceiptTotalAsync(string id)
+        {
+            var total = await _context.bookreceiptsdetails
+                                      .Where(totaldetail => totaldetail.idreceipt == id)
+                                      .SumAsync(totaldetail => totaldetail.totalprice);
+
+            return total ?? -1;
+        }
+
         public async Task<IEnumerable<BookReceipt>> SearchBookReceiptsByIdAsync(string id)
         {
             return await _dbSet.Where(br => br.id.Contains(id)).ToListAsync();

@@ -21,6 +21,7 @@ namespace WebAPI_BookStoreManagement.Controllers
         {
             var bookreceipts = await _bookReceiptServices.GetAllBookReceiptAsync();
 
+
             return Ok(bookreceipts);
         }
 
@@ -33,6 +34,14 @@ namespace WebAPI_BookStoreManagement.Controllers
                 return NotFound();
 
             return Ok(bookreceipt);
+        }
+
+        [HttpGet("total/{id}")]
+        public async Task<decimal?> GetTotalBookReceipt(string id)
+        {
+            var total = await _bookReceiptServices.CalculateReceiptTotalAsync(id);
+
+            return total;
         }
 
         [HttpPost]

@@ -5,5 +5,6 @@ namespace WebAPI_BookStoreManagement.Data.Repositories
     public interface IBookReceiptRepository : IRepository<BookReceipt>
     {
         Task<IEnumerable<BookReceipt>> SearchBookReceiptsByIdAsync(string id);
+        Task<decimal?> CalculateReceiptTotalAsync(string id);
     }
 }

@@ -21,6 +21,11 @@ namespace WebAPI_BookStoreManagement.Services
             await _unitOfWork.BooksReceipt.SaveChangeAsync();
         }
 
+        public async Task<decimal?> CalculateReceiptTotalAsync(string id)
+        {
+            return await _unitOfWork.BooksReceipt.CalculateReceiptTotalAsync(id);
+        }
+
         public async Task DeleteBookReceiptAsync(string id)
         {
             _unitOfWork.BooksReceipt.DeleteAsync(id);
