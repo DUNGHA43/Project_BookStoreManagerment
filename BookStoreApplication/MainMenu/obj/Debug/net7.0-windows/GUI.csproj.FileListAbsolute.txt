@@ -189,6 +189,7 @@ C:\Users\dungh\Documents\Đồ án chuyên ngành 2\Project\BookStoreApplication
 C:\Users\dungh\Documents\Đồ án chuyên ngành 2\Project\BookStoreApplication\MainMenu\bin\Debug\net7.0-windows\DevExpress.Xpo.v22.2.dll
 C:\Users\dungh\Documents\Đồ án chuyên ngành 2\Project\BookStoreApplication\MainMenu\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\dungh\Documents\Đồ án chuyên ngành 2\Project\BookStoreApplication\MainMenu\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\dungh\Documents\Đồ án chuyên ngành 2\Project\BookStoreApplication\MainMenu\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
 C:\Users\dungh\Documents\Đồ án chuyên ngành 2\Project\BookStoreApplication\MainMenu\bin\Debug\net7.0-windows\System.ComponentModel.Composition.dll
 C:\Users\dungh\Documents\Đồ án chuyên ngành 2\Project\BookStoreApplication\MainMenu\bin\Debug\net7.0-windows\System.Data.Odbc.dll
 C:\Users\dungh\Documents\Đồ án chuyên ngành 2\Project\BookStoreApplication\MainMenu\bin\Debug\net7.0-windows\System.Data.OleDb.dll
@@ -247,4 +248,3 @@ C:\Users\dungh\Documents\Đồ án chuyên ngành 2\Project\BookStoreApplication
 C:\Users\dungh\Documents\Đồ án chuyên ngành 2\Project\BookStoreApplication\MainMenu\obj\Debug\net7.0-windows\GUI.pdb
 C:\Users\dungh\Documents\Đồ án chuyên ngành 2\Project\BookStoreApplication\MainMenu\obj\Debug\net7.0-windows\GUI.genruntimeconfig.cache
 C:\Users\dungh\Documents\Đồ án chuyên ngành 2\Project\BookStoreApplication\MainMenu\obj\Debug\net7.0-windows\ref\GUI.dll
-C:\Users\dungh\Documents\Đồ án chuyên ngành 2\Project\BookStoreApplication\MainMenu\bin\Debug\net7.0-windows\Newtonsoft.Json.dll

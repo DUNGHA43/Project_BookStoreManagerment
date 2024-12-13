@@ -43,7 +43,7 @@
             label2 = new System.Windows.Forms.Label();
             label1 = new System.Windows.Forms.Label();
             panel3 = new System.Windows.Forms.Panel();
-            txtIDBookReceipt = new DevExpress.XtraEditors.TextEdit();
+            txtIDBookInvoice = new DevExpress.XtraEditors.TextEdit();
             panel1 = new System.Windows.Forms.Panel();
             panel2 = new System.Windows.Forms.Panel();
             groupControl2 = new DevExpress.XtraEditors.GroupControl();
@@ -53,12 +53,12 @@
             txtSearch = new DevExpress.XtraEditors.TextEdit();
             btnSearch = new System.Windows.Forms.Button();
             groupControl1 = new DevExpress.XtraEditors.GroupControl();
-            gcBookReceiptDetail = new DevExpress.XtraGrid.GridControl();
-            gvBookReceiptDetail = new DevExpress.XtraGrid.Views.Grid.GridView();
+            gcBookInvoiceDetail = new DevExpress.XtraGrid.GridControl();
+            gvBookInvoiceDetail = new DevExpress.XtraGrid.Views.Grid.GridView();
             ((System.ComponentModel.ISupportInitialize)txtIDBook.Properties).BeginInit();
             ((System.ComponentModel.ISupportInitialize)barManager1).BeginInit();
             panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)txtIDBookReceipt.Properties).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)txtIDBookInvoice.Properties).BeginInit();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)groupControl2).BeginInit();
@@ -69,8 +69,8 @@
             ((System.ComponentModel.ISupportInitialize)txtSearch.Properties).BeginInit();
             ((System.ComponentModel.ISupportInitialize)groupControl1).BeginInit();
             groupControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)gcBookReceiptDetail).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)gvBookReceiptDetail).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)gcBookInvoiceDetail).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)gvBookInvoiceDetail).BeginInit();
             SuspendLayout();
             // 
             // txtIDBook
@@ -80,9 +80,9 @@
             txtIDBook.Location = new System.Drawing.Point(50, 113);
             txtIDBook.MenuManager = barManager1;
             txtIDBook.Name = "txtIDBook";
-            txtIDBook.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            txtIDBook.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             txtIDBook.Properties.Appearance.Options.UseFont = true;
-            txtIDBook.Size = new System.Drawing.Size(255, 40);
+            txtIDBook.Size = new System.Drawing.Size(255, 30);
             txtIDBook.TabIndex = 10;
             // 
             // barManager1
@@ -121,6 +121,7 @@
             btnAdd.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             btnAdd.ItemAppearance.Normal.Options.UseFont = true;
             btnAdd.Name = "btnAdd";
+            btnAdd.ItemClick += btnAdd_ItemClick;
             // 
             // btnDelete
             // 
@@ -131,6 +132,7 @@
             btnDelete.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             btnDelete.ItemAppearance.Normal.Options.UseFont = true;
             btnDelete.Name = "btnDelete";
+            btnDelete.ItemClick += btnDelete_ItemClick;
             // 
             // btnClose
             // 
@@ -204,7 +206,7 @@
             panel3.BackColor = System.Drawing.Color.Azure;
             panel3.Controls.Add(txtIDBook);
             panel3.Controls.Add(label2);
-            panel3.Controls.Add(txtIDBookReceipt);
+            panel3.Controls.Add(txtIDBookInvoice);
             panel3.Controls.Add(label1);
             panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             panel3.Location = new System.Drawing.Point(490, 0);
@@ -212,17 +214,17 @@
             panel3.Size = new System.Drawing.Size(342, 195);
             panel3.TabIndex = 1;
             // 
-            // txtIDBookReceipt
+            // txtIDBookInvoice
             // 
-            txtIDBookReceipt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            txtIDBookReceipt.Enabled = false;
-            txtIDBookReceipt.Location = new System.Drawing.Point(141, 51);
-            txtIDBookReceipt.MenuManager = barManager1;
-            txtIDBookReceipt.Name = "txtIDBookReceipt";
-            txtIDBookReceipt.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            txtIDBookReceipt.Properties.Appearance.Options.UseFont = true;
-            txtIDBookReceipt.Size = new System.Drawing.Size(164, 22);
-            txtIDBookReceipt.TabIndex = 8;
+            txtIDBookInvoice.Anchor = System.Windows.Forms.AnchorStyles.None;
+            txtIDBookInvoice.Enabled = false;
+            txtIDBookInvoice.Location = new System.Drawing.Point(141, 51);
+            txtIDBookInvoice.MenuManager = barManager1;
+            txtIDBookInvoice.Name = "txtIDBookInvoice";
+            txtIDBookInvoice.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            txtIDBookInvoice.Properties.Appearance.Options.UseFont = true;
+            txtIDBookInvoice.Size = new System.Drawing.Size(164, 22);
+            txtIDBookInvoice.TabIndex = 8;
             // 
             // panel1
             // 
@@ -271,7 +273,10 @@
             // 
             gvBooks.GridControl = gcBooks;
             gvBooks.Name = "gvBooks";
+            gvBooks.OptionsBehavior.Editable = false;
+            gvBooks.OptionsBehavior.ReadOnly = true;
             gvBooks.OptionsView.ShowGroupPanel = false;
+            gvBooks.RowClick += gvBooks_RowClick;
             // 
             // panel4
             // 
@@ -304,12 +309,13 @@
             btnSearch.TabIndex = 0;
             btnSearch.Text = "Tìm kiếm";
             btnSearch.UseVisualStyleBackColor = true;
+            btnSearch.Click += btnSearch_Click;
             // 
             // groupControl1
             // 
             groupControl1.AppearanceCaption.BorderColor = DevExpress.LookAndFeel.DXSkinColors.FillColors.Primary;
             groupControl1.AppearanceCaption.Options.UseBorderColor = true;
-            groupControl1.Controls.Add(gcBookReceiptDetail);
+            groupControl1.Controls.Add(gcBookInvoiceDetail);
             groupControl1.Dock = System.Windows.Forms.DockStyle.Bottom;
             groupControl1.Location = new System.Drawing.Point(0, 221);
             groupControl1.Name = "groupControl1";
@@ -317,22 +323,25 @@
             groupControl1.TabIndex = 9;
             groupControl1.Text = "Thông tin phiếu nhập";
             // 
-            // gcBookReceiptDetail
+            // gcBookInvoiceDetail
             // 
-            gcBookReceiptDetail.Dock = System.Windows.Forms.DockStyle.Fill;
-            gcBookReceiptDetail.Location = new System.Drawing.Point(2, 23);
-            gcBookReceiptDetail.MainView = gvBookReceiptDetail;
-            gcBookReceiptDetail.MenuManager = barManager1;
-            gcBookReceiptDetail.Name = "gcBookReceiptDetail";
-            gcBookReceiptDetail.Size = new System.Drawing.Size(828, 305);
-            gcBookReceiptDetail.TabIndex = 0;
-            gcBookReceiptDetail.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] { gvBookReceiptDetail });
+            gcBookInvoiceDetail.Dock = System.Windows.Forms.DockStyle.Fill;
+            gcBookInvoiceDetail.Location = new System.Drawing.Point(2, 23);
+            gcBookInvoiceDetail.MainView = gvBookInvoiceDetail;
+            gcBookInvoiceDetail.MenuManager = barManager1;
+            gcBookInvoiceDetail.Name = "gcBookInvoiceDetail";
+            gcBookInvoiceDetail.Size = new System.Drawing.Size(828, 305);
+            gcBookInvoiceDetail.TabIndex = 0;
+            gcBookInvoiceDetail.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] { gvBookInvoiceDetail });
             // 
-            // gvBookReceiptDetail
+            // gvBookInvoiceDetail
             // 
-            gvBookReceiptDetail.GridControl = gcBookReceiptDetail;
-            gvBookReceiptDetail.Name = "gvBookReceiptDetail";
-            gvBookReceiptDetail.OptionsView.ShowGroupPanel = false;
+            gvBookInvoiceDetail.GridControl = gcBookInvoiceDetail;
+            gvBookInvoiceDetail.Name = "gvBookInvoiceDetail";
+            gvBookInvoiceDetail.OptionsBehavior.Editable = false;
+            gvBookInvoiceDetail.OptionsBehavior.ReadOnly = true;
+            gvBookInvoiceDetail.OptionsView.ShowGroupPanel = false;
+            gvBookInvoiceDetail.RowClick += gvBookInvoiceDetail_RowClick;
             // 
             // frmBookSalesInvoiceDetail
             // 
@@ -352,7 +361,7 @@
             ((System.ComponentModel.ISupportInitialize)barManager1).EndInit();
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)txtIDBookReceipt.Properties).EndInit();
+            ((System.ComponentModel.ISupportInitialize)txtIDBookInvoice.Properties).EndInit();
             panel1.ResumeLayout(false);
             panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)groupControl2).EndInit();
@@ -363,8 +372,8 @@
             ((System.ComponentModel.ISupportInitialize)txtSearch.Properties).EndInit();
             ((System.ComponentModel.ISupportInitialize)groupControl1).EndInit();
             groupControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)gcBookReceiptDetail).EndInit();
-            ((System.ComponentModel.ISupportInitialize)gvBookReceiptDetail).EndInit();
+            ((System.ComponentModel.ISupportInitialize)gcBookInvoiceDetail).EndInit();
+            ((System.ComponentModel.ISupportInitialize)gvBookInvoiceDetail).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -384,7 +393,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label2;
-        private DevExpress.XtraEditors.TextEdit txtIDBookReceipt;
+        private DevExpress.XtraEditors.TextEdit txtIDBookInvoice;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
         private DevExpress.XtraEditors.GroupControl groupControl2;
@@ -394,7 +403,7 @@
         private DevExpress.XtraEditors.TextEdit txtSearch;
         private System.Windows.Forms.Button btnSearch;
         private DevExpress.XtraEditors.GroupControl groupControl1;
-        private DevExpress.XtraGrid.GridControl gcBookReceiptDetail;
-        private DevExpress.XtraGrid.Views.Grid.GridView gvBookReceiptDetail;
+        private DevExpress.XtraGrid.GridControl gcBookInvoiceDetail;
+        private DevExpress.XtraGrid.Views.Grid.GridView gvBookInvoiceDetail;
     }
 }

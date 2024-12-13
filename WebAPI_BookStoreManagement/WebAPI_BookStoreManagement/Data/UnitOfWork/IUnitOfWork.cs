@@ -13,7 +13,7 @@ namespace WebAPI_BookStoreManagement.Data.UnitOfWork
         IBookRepository Books { get; }
         IBookReceiptRepository BooksReceipt { get; }
         IBookReceiptDetailRepository BookReceiptDetail { get; }
-        IRepository<BookInvoice> BookInvoice { get; }
+        IBookInvoiceRepository BookInvoice { get; }
         IBookInvoiceDetailRepository BookInvoiceDetail { get; }
         Task SaveChangeAsync();
     }

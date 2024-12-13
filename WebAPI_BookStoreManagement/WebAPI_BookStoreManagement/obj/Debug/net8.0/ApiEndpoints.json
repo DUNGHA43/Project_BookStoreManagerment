@@ -259,6 +259,37 @@
   },
   {
     "ContainingType": "WebAPI_BookStoreManagement.Controllers.BookController",
+    "Method": "SearchBookAsync",
+    "RelativePath": "api/Book/{namebook}, {cate}, {pub}, {author}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "namebook",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "cate",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "pub",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "author",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI_BookStoreManagement.Controllers.BookController",
     "Method": "GetAllBookByPublisherAsync",
     "RelativePath": "api/Book/booksbypub/{idpub}",
     "HttpMethod": "GET",
@@ -286,6 +317,22 @@
         "Type": "System.Int32",
         "IsRequired": true
       },
+      {
+        "Name": "namebook",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI_BookStoreManagement.Controllers.BookController",
+    "Method": "SearchBookByNameAsync",
+    "RelativePath": "api/Book/searchbyname/{namebook}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
       {
         "Name": "namebook",
         "Type": "System.String",
@@ -372,6 +419,32 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI_BookStoreManagement.Controllers.BookInvoiceController",
+    "Method": "GetTotalBookInvoiceAsync",
+    "RelativePath": "api/BookInvoice/total/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "WebAPI_BookStoreManagement.Controllers.BookInvoiceDetailController",

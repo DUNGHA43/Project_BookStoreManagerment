@@ -17,10 +17,22 @@ namespace WebAPI_BookStoreManagement.Services
             var _bookinvoicedetail = await GetBookInvoiceDetailByIdAsync(bookinvoicedetail.idinvoice, bookinvoicedetail.idbook);
             if (_bookinvoicedetail == null)
             {
+                float? total = await CalculateTotalAsync(bookinvoicedetail.idbook, bookinvoicedetail.quanlity);
+                bookinvoicedetail.totalprice = Convert.ToDecimal(total);
                 await _unitOfWork.BookInvoiceDetail.AddAsync(bookinvoicedetail);
             }
             else
             {
+                int? quanlity = await _unitOfWork.BookInvoiceDetail.GetQuanlityBookInDetailAsync
+                    (bookinvoicedetail.idinvoice, bookinvoicedetail.idbook);
+
+                if (quanlity > 0)
+                {
+                    bookinvoicedetail.quanlity = quanlity + 1;
+                    float? total = await CalculateTotalAsync(bookinvoicedetail.idbook, bookinvoicedetail.quanlity);
+                    bookinvoicedetail.totalprice = Convert.ToDecimal(total);
+                }
+
                 _unitOfWork.BookInvoiceDetail.UpdateAsync(bookinvoicedetail);
             }
 

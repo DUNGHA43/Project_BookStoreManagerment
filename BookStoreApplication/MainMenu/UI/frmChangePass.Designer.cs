@@ -65,6 +65,7 @@
             btnLogin.TabIndex = 7;
             btnLogin.Text = "ĐỔI MẬT KHẨU";
             btnLogin.UseVisualStyleBackColor = false;
+            btnLogin.Click += btnLogin_Click;
             // 
             // txtAcceptNewPass
             // 
@@ -102,6 +103,7 @@
             button1.TabIndex = 9;
             button1.Text = "ĐÓNG";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // txtNewPass
             // 

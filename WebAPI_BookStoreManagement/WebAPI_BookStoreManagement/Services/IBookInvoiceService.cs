@@ -9,5 +9,7 @@ namespace WebAPI_BookStoreManagement.Services
         Task AddBookInvoiceAsync(BookInvoice bookinvoice);
         Task UpdateBookInvoiceAsync(BookInvoice bookinvoice);
         Task DeleteBookInvoiceAsync(string id);
+        Task<IEnumerable<BookInvoice>> SearchBookInvoiceByIdAsync(string id);
+        Task<decimal?> CalculateInvoiceTotalAsync(string id);
     }
 }

@@ -75,18 +75,11 @@ namespace GUI.UI
 
             if (selectRow != null)
             {
-                if (selectRow.quanlitystock == 0)
-                {
-                    MessageBox.Show("Số lượng sách trong kho đã hết !", "Cảnh báo!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                }
-                else
-                {
-                    txtIDBook.Text = selectRow.id.Trim();
-                    importprice = selectRow.importprice;
-                    txtQuanlity.Enabled = true;
-                    txtQuanlity.Text = "0";
-                    txtTotal.Text = "0";
-                }
+                txtIDBook.Text = selectRow.id.Trim();
+                importprice = selectRow.importprice;
+                txtQuanlity.Enabled = true;
+                txtQuanlity.Text = "0";
+                txtTotal.Text = "0";
             }
         }
 

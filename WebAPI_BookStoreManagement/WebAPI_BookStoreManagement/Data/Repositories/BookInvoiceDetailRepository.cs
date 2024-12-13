@@ -13,6 +13,12 @@ namespace WebAPI_BookStoreManagement.Data.Repositories
             _context = context;
         }
 
+        public async Task<int?> GetQuanlityBookInDetailAsync(string idbookinvoice, string idbook)
+        {
+            var detail = await _dbSet.FindAsync(idbookinvoice, idbook);
+            return detail.quanlity;
+        }
+
         async Task IBookInvoiceDetailRepository.DeleteBookAsync(object idbookinvoice, object idbook)
         {
             var entity = await _dbSet.FindAsync(idbookinvoice, idbook);

@@ -60,8 +60,7 @@ namespace GUI.UI
         {
             txtID.Text = "";
             txtDate.Text = "";
-            cbxPublisher.Text = "";
-            cbxStaff.Text = "";
+            cbxPublisher.SelectedValue = 1;
             txtTotal.Text = "0";
         }
 
@@ -230,6 +229,7 @@ namespace GUI.UI
             btnDelete.Enabled = true;
             txtID.Enabled = false;
             SetUnable();
+            Clear();
         }
 
         private void gvBookReceipts_RowClick(object sender, DevExpress.XtraGrid.Views.Grid.RowClickEventArgs e)

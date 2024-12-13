@@ -94,5 +94,31 @@ namespace DAL
                 throw new Exception(e.Message);
             }
         }
+
+        public async Task<IEnumerable<BookDTO>> SearchBookByNameAsync(string? namebook)
+        {
+            try
+            {
+                string requestUrl = $"{_apiUrl}/searchbyname/{namebook}";
+                HttpResponseMessage response = await _httpClient.GetAsync(requestUrl);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    string responsebody = await response.Content.ReadAsStringAsync();
+                    var books = JsonConvert.DeserializeObject<List<BookDTO>>(responsebody);
+                    return books;
+                }
+                else
+                {
+                    string errorResponse = await response.Content.ReadAsStringAsync();
+                    throw new Exception(errorResponse);
+                }
+            }
+            catch (Exception e)
+            {
+
+                throw new Exception(e.Message);
+            }
+        }
     }
 }

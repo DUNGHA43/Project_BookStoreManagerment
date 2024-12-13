@@ -23,11 +23,13 @@ namespace MainMenu
         private  uiAuthorMNG uiAuthorMNG;
         private  uiCategory uiCategory;
         private readonly string _idstaff;
+        private readonly string _user;
 
         public frmMainMenu(string user, string roleacc, string idstaff)
         {
             InitializeComponent();
             _idstaff = idstaff;
+            _user = user;
             title.Caption = $"Chúc một ngày làm việc vui vẻ: {user}";
         }
 
@@ -91,7 +93,7 @@ namespace MainMenu
         {
             if (uiBookSalesInvoice == null)
             {
-                uiBookSalesInvoice = new uiBookSalesInvoice();
+                uiBookSalesInvoice = new uiBookSalesInvoice(_idstaff);
                 uiBookSalesInvoice.Dock = DockStyle.Fill;
                 containerShow.Controls.Add(uiBookSalesInvoice);
                 uiBookSalesInvoice.BringToFront();
@@ -121,7 +123,7 @@ namespace MainMenu
 
         private void btnChangePass_Click(object sender, EventArgs e)
         {
-            frmChangePass frmChangePass = new frmChangePass();
+            frmChangePass frmChangePass = new frmChangePass(_user);
             frmChangePass.ShowDialog();
         }
 

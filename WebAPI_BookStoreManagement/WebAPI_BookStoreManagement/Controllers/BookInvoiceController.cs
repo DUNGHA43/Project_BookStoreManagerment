@@ -27,8 +27,16 @@ namespace WebAPI_BookStoreManagement.Controllers
         [HttpGet("id")]
         public async Task<IActionResult> GetBookInvoiceByIdAsync(string id)
         {
-            var bookinvoice = await _bookinvoiceservice.GetBookInvoiceById(id);
+            var bookinvoice = await _bookinvoiceservice.SearchBookInvoiceByIdAsync(id);
             return Ok(bookinvoice);
+        }
+
+        [HttpGet("total/{id}")]
+        public async Task<decimal?> GetTotalBookInvoiceAsync(string id)
+        {
+            var total = await _bookinvoiceservice.CalculateInvoiceTotalAsync(id);
+
+            return total;
         }
 
         [HttpPost]
@@ -60,6 +68,7 @@ namespace WebAPI_BookStoreManagement.Controllers
 
             existingbookinvoice.saledate = bookInvoiceDTO.saledate ?? existingbookinvoice.saledate;
             existingbookinvoice.idstaff = bookInvoiceDTO.idstaff ?? existingbookinvoice.idstaff;
+            existingbookinvoice.totalprice = bookInvoiceDTO.totalprice ?? existingbookinvoice.totalprice;
 
             await _bookinvoiceservice.UpdateBookInvoiceAsync(existingbookinvoice);
             return NoContent();

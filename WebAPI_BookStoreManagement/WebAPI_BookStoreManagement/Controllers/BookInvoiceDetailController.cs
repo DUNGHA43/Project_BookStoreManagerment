@@ -35,7 +35,7 @@ namespace WebAPI_BookStoreManagement.Controllers
                 idinvoice = bookInvoiceDetailDTO.idinvoice,
                 idbook = bookInvoiceDetailDTO.idbook,
                 quanlity = bookInvoiceDetailDTO.quanlity,
-                totalprice = (decimal)await _bookinvoicedetail.CalculateTotalAsync(bookInvoiceDetailDTO.idbook, bookInvoiceDetailDTO.quanlity)
+                totalprice = 0
             };
 
             await _bookinvoicedetail.AddBookInvoiceDetailAsync(bookinvoicedetail);

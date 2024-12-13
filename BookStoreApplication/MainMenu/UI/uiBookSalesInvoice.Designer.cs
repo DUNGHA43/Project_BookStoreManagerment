@@ -195,6 +195,7 @@
             // txtStaff
             // 
             txtStaff.Anchor = System.Windows.Forms.AnchorStyles.None;
+            txtStaff.Enabled = false;
             txtStaff.FormattingEnabled = true;
             txtStaff.Location = new System.Drawing.Point(599, 57);
             txtStaff.Name = "txtStaff";
@@ -259,6 +260,7 @@
             btnAddInvoice.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             btnAddInvoice.ItemAppearance.Normal.Options.UseFont = true;
             btnAddInvoice.Name = "btnAddInvoice";
+            btnAddInvoice.ItemClick += btnAddInvoice_ItemClick;
             // 
             // btnUpdateInvoice
             // 
@@ -269,6 +271,7 @@
             btnUpdateInvoice.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             btnUpdateInvoice.ItemAppearance.Normal.Options.UseFont = true;
             btnUpdateInvoice.Name = "btnUpdateInvoice";
+            btnUpdateInvoice.ItemClick += btnUpdateInvoice_ItemClick;
             // 
             // btnDeleteInvoice
             // 
@@ -279,6 +282,7 @@
             btnDeleteInvoice.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             btnDeleteInvoice.ItemAppearance.Normal.Options.UseFont = true;
             btnDeleteInvoice.Name = "btnDeleteInvoice";
+            btnDeleteInvoice.ItemClick += btnDeleteInvoice_ItemClick;
             // 
             // btnSaveInvoice
             // 
@@ -289,6 +293,7 @@
             btnSaveInvoice.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             btnSaveInvoice.ItemAppearance.Normal.Options.UseFont = true;
             btnSaveInvoice.Name = "btnSaveInvoice";
+            btnSaveInvoice.ItemClick += btnSaveInvoice_ItemClick;
             // 
             // btnCancell
             // 
@@ -299,6 +304,7 @@
             btnCancell.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             btnCancell.ItemAppearance.Normal.Options.UseFont = true;
             btnCancell.Name = "btnCancell";
+            btnCancell.ItemClick += btnCancell_ItemClick;
             // 
             // btnInvoiceDetail
             // 
@@ -330,6 +336,7 @@
             btnCloseUI.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             btnCloseUI.ItemAppearance.Normal.Options.UseFont = true;
             btnCloseUI.Name = "btnCloseUI";
+            btnCloseUI.ItemClick += btnCloseUI_ItemClick;
             // 
             // barDockControlTop
             // 
@@ -438,7 +445,10 @@
             // 
             gvBookInvoice.GridControl = gcBookInvoice;
             gvBookInvoice.Name = "gvBookInvoice";
+            gvBookInvoice.OptionsBehavior.Editable = false;
+            gvBookInvoice.OptionsBehavior.ReadOnly = true;
             gvBookInvoice.OptionsView.ShowGroupPanel = false;
+            gvBookInvoice.RowClick += gvBookInvoice_RowClick;
             // 
             // panel1
             // 
@@ -471,6 +481,7 @@
             btnSearch.TabIndex = 0;
             btnSearch.Text = "Tìm kiếm";
             btnSearch.UseVisualStyleBackColor = true;
+            btnSearch.Click += btnSearch_Click;
             // 
             // label2
             // 

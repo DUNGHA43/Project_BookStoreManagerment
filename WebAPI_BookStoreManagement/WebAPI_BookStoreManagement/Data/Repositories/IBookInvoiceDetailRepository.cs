@@ -8,5 +8,6 @@ namespace WebAPI_BookStoreManagement.Data.Repositories
         Task DeleteBookAsync(object idbookinvoice, object idbook);
         Task<BookInvoiceDetail> GetBookInvoiceByIdsAsync(object idbookinvoice, object idbook);
         Task<IEnumerable<BookInvoiceDetail>> GetAllBookInvoiceDetailsByIdAsync(string idbookinvoice);
+        Task<int?> GetQuanlityBookInDetailAsync(string idbookinvoice,string idbook);
     }
 }

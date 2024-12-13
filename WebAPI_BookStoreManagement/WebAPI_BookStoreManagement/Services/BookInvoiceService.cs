@@ -22,6 +22,11 @@ namespace WebAPI_BookStoreManagement.Services
                 
         }
 
+        public async Task<decimal?> CalculateInvoiceTotalAsync(string id)
+        {
+            return await _unitOfWork.BookInvoice.CalculateInvoiceTotalAsync(id);
+        }
+
         public async Task DeleteBookInvoiceAsync(string id)
         {
             _unitOfWork.BookInvoice.DeleteAsync(id);
@@ -36,6 +41,11 @@ namespace WebAPI_BookStoreManagement.Services
         public async Task<BookInvoice> GetBookInvoiceById(string id)
         {
             return await _unitOfWork.BookInvoice.GetByIdAsync(id);
+        }
+
+        public async Task<IEnumerable<BookInvoice>> SearchBookInvoiceByIdAsync(string id)
+        {
+            return await _unitOfWork.BookInvoice.SearchBookInvoiceById(id);
         }
 
         public async Task UpdateBookInvoiceAsync(BookInvoice bookinvoice)
