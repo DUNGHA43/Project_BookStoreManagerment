@@ -64,6 +64,35 @@ namespace DAL
             }
             catch (Exception e)
             {
+                throw new Exception(e.Message);
+            }
+        }
+
+        public async Task<decimal> GetTotalReceiptAsync(string id)
+        {
+            try
+            {
+                string requestUrl = $"{_apiUrl}/total/{id}";
+                HttpResponseMessage responese = await _httpClient.GetAsync(requestUrl);
+
+                if (responese.IsSuccessStatusCode)
+                {
+                    string result = await responese.Content.ReadAsStringAsync();
+
+                    if(decimal.TryParse(result, out decimal total))
+                    {
+                        return total;
+                    }
+                    return 0;
+                }
+                else
+                {
+                    string err = await responese.Content.ReadAsStringAsync();
+                    throw new Exception(err);
+                }
+            }
+            catch (Exception e)
+            {
 
                 throw new Exception(e.Message);
             }

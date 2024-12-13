@@ -25,6 +25,11 @@ namespace BLL
             return await _bookrecipt.GetByIdAsync(id);
         }
 
+        public async Task<decimal> GetTotalReceiptAsync(string id)
+        {
+            return await _bookrecipt.GetTotalReceiptAsync(id);
+        }
+
         public async Task<bool> AddBookReceiptAsync(BookReceiptDTO bookReceiptDTO)
         {
             return await _bookrecipt.AddAsync(bookReceiptDTO);

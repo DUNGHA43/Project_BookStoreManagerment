@@ -51,7 +51,7 @@ namespace GUI
                     if ("Quản lý".Equals(userAccount.roleacc.ToString()))
                     {
                         MessageBox.Show($"Đăng nhập thành công!");
-                        frmMainMenu mainMenu = new frmMainMenu(userAccount.username, userAccount.roleacc);
+                        frmMainMenu mainMenu = new frmMainMenu(userAccount.username, userAccount.roleacc, userAccount.idstaff);
                         this.Hide();
                         mainMenu.ShowDialog();
                         this.Close();

@@ -10,7 +10,7 @@ namespace WebAPI_BookStoreManagement.Data.UnitOfWork
         IRepository<Category> Categories { get; }
         IRepository<Publisher> Publisher { get; }
         IRepository<Author> Author { get; }
-        IRepository<Book> Books { get; }
+        IBookRepository Books { get; }
         IBookReceiptRepository BooksReceipt { get; }
         IBookReceiptDetailRepository BookReceiptDetail { get; }
         IRepository<BookInvoice> BookInvoice { get; }

@@ -22,25 +22,28 @@ namespace GUI.UI
         private readonly BookReceiptBLL _bookreceipt;
         private readonly PublisherBLL _publisher;
         private readonly StaffBLL _staff;
+        private readonly string _idstaff;
 
-        public uiBookReceipts()
+        public uiBookReceipts(string idstaff)
         {
             InitializeComponent();
             _bookreceipt = new BookReceiptBLL();
             _publisher = new PublisherBLL();
             _staff = new StaffBLL();
+            _idstaff = idstaff;
             SetUnable();
             txtID.Enabled = false;
             LoadAllBookReceipts();
             LoadCBXPublishers();
             LoadCBXStaffs();
+            btnDetail.Enabled = false;
+            cbxStaff.Enabled = false;
         }
 
         private void SetUnable()
         {
             txtDate.Enabled = false;
             cbxPublisher.Enabled = false;
-            cbxStaff.Enabled = false;
             btnSave.Enabled = false;
             btnCancel.Enabled = false;
         }
@@ -49,7 +52,6 @@ namespace GUI.UI
         {
             txtDate.Enabled = true;
             cbxPublisher.Enabled = true;
-            cbxStaff.Enabled = true;
             btnSave.Enabled = true;
             btnCancel.Enabled = true;
         }
@@ -98,10 +100,16 @@ namespace GUI.UI
             }
         }
 
-        private void btnDetail_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        private async void btnDetail_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            frmBookReceiptDetail frmBookReceiptDetail = new frmBookReceiptDetail();
+            frmBookReceiptDetail frmBookReceiptDetail = new frmBookReceiptDetail(txtID.Text.Trim(), cbxPublisher.SelectedValue.ToString());
             frmBookReceiptDetail.ShowDialog();
+            var total = new BookReceiptDTO() { id = txtID.Text.Trim(),
+                totalprice = await _bookreceipt.GetTotalReceiptAsync(txtID.Text.Trim())};
+
+            await _bookreceipt.UpdateBookReceiptAsync(total);
+            LoadAllBookReceipts();
+            btnDetail.Enabled = false;
         }
 
         private void btnAdd_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -113,6 +121,7 @@ namespace GUI.UI
             btnUpdate.Enabled = false;
             btnDelete.Enabled = false;
             Clear();
+            cbxStaff.SelectedValue = _idstaff;
         }
 
         private void btnUpdate_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -235,6 +244,8 @@ namespace GUI.UI
                 cbxPublisher.SelectedValue = Convert.ToInt32(selectRow.idpublisher.ToString());
                 cbxStaff.SelectedValue = selectRow.idstaff.ToString();
             }
+
+            btnDetail.Enabled = true;
         }
 
         private async void btnSearch_Click(object sender, EventArgs e)

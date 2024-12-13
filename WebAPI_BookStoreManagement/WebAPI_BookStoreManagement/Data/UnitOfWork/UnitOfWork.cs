@@ -18,7 +18,7 @@ namespace WebAPI_BookStoreManagement.Data.UnitOfWork
 
         public IRepository<Author> Author { get; private set; }
 
-        public IRepository<Book> Books { get; private set; }
+        public IBookRepository Books { get; private set; }
 
         public IBookReceiptRepository BooksReceipt { get; private set; }
 
@@ -36,7 +36,7 @@ namespace WebAPI_BookStoreManagement.Data.UnitOfWork
             Categories = new Repository<Category>(_context);
             Publisher = new Repository<Publisher>(_context);
             Author = new Repository<Author>(_context);
-            Books = new Repository<Book>(_context);
+            Books = new BookRepository(_context);
             BooksReceipt = new BookReceiptRepository(_context);
             BookReceiptDetail = new BookReceiptDetailRepository(_context);
             BookInvoice = new Repository<BookInvoice>(_context);

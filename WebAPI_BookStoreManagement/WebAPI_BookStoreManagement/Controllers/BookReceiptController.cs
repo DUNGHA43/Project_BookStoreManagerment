@@ -75,6 +75,8 @@ namespace WebAPI_BookStoreManagement.Controllers
 
             existingbookreceipt.dateentry = bookReceiptDTO.dateentry ?? existingbookreceipt.dateentry;
             existingbookreceipt.idstaff = bookReceiptDTO.idstaff ?? existingbookreceipt.idstaff;
+            existingbookreceipt.totalprice = bookReceiptDTO.totalprice ?? existingbookreceipt.totalprice;
+            
 
             await _bookReceiptServices.UpdateBookReceiptAsync(existingbookreceipt);
             return NoContent();

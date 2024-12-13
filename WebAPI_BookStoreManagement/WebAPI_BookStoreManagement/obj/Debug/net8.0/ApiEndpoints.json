@@ -258,6 +258,43 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WebAPI_BookStoreManagement.Controllers.BookController",
+    "Method": "GetAllBookByPublisherAsync",
+    "RelativePath": "api/Book/booksbypub/{idpub}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idpub",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI_BookStoreManagement.Controllers.BookController",
+    "Method": "SearchBookByPublisherAsync",
+    "RelativePath": "api/Book/searchbooksbypub/{idpub}, {namebook}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idpub",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "namebook",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebAPI_BookStoreManagement.Controllers.BookInvoiceController",
     "Method": "GetAllBookInvoiceAsync",
     "RelativePath": "api/BookInvoice",

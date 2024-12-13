@@ -83,7 +83,10 @@
             // 
             gvBookReceiptDetail.GridControl = gcBookReceiptDetail;
             gvBookReceiptDetail.Name = "gvBookReceiptDetail";
+            gvBookReceiptDetail.OptionsBehavior.Editable = false;
+            gvBookReceiptDetail.OptionsBehavior.ReadOnly = true;
             gvBookReceiptDetail.OptionsView.ShowGroupPanel = false;
+            gvBookReceiptDetail.RowClick += gvBookReceiptDetail_RowClick;
             // 
             // gcBookReceiptDetail
             // 
@@ -132,6 +135,7 @@
             btnAdd.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             btnAdd.ItemAppearance.Normal.Options.UseFont = true;
             btnAdd.Name = "btnAdd";
+            btnAdd.ItemClick += btnAdd_ItemClick;
             // 
             // btnDelete
             // 
@@ -142,6 +146,7 @@
             btnDelete.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             btnDelete.ItemAppearance.Normal.Options.UseFont = true;
             btnDelete.Name = "btnDelete";
+            btnDelete.ItemClick += btnDelete_ItemClick;
             // 
             // btnClose
             // 
@@ -219,6 +224,7 @@
             btnSearch.TabIndex = 0;
             btnSearch.Text = "Tìm kiếm";
             btnSearch.UseVisualStyleBackColor = true;
+            btnSearch.Click += btnSearch_Click;
             // 
             // panel4
             // 
@@ -234,7 +240,10 @@
             // 
             gvBooks.GridControl = gcBooks;
             gvBooks.Name = "gvBooks";
+            gvBooks.OptionsBehavior.Editable = false;
+            gvBooks.OptionsBehavior.ReadOnly = true;
             gvBooks.OptionsView.ShowGroupPanel = false;
+            gvBooks.RowClick += gvBooks_RowClick;
             // 
             // gcBooks
             // 
@@ -303,6 +312,7 @@
             txtQuanlity.Properties.Appearance.Options.UseFont = true;
             txtQuanlity.Size = new System.Drawing.Size(143, 22);
             txtQuanlity.TabIndex = 12;
+            txtQuanlity.TextChanged += txtQuanlity_TextChanged;
             // 
             // label3
             // 

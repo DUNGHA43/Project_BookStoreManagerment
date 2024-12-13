@@ -32,9 +32,19 @@ namespace WebAPI_BookStoreManagement.Services
             return await _unitOfWork.Books.GetAllAsync();
         }
 
+        public async Task<IEnumerable<Book>> GetAllBookByPublisherAsync(int idpub)
+        {
+            return await _unitOfWork.Books.GetAllBooksByPublisherAsync(idpub);
+        }
+
         public async Task<Book> GetBookByIdAsync(string id)
         {
             return await _unitOfWork.Books.GetByIdAsync(id);
+        }
+
+        public async Task<IEnumerable<Book>> SearchBookByPublisherAsync(int idpub, string namebook)
+        {
+            return await _unitOfWork.Books.SearchBooksByPublisherAsync(idpub, namebook);
         }
 
         public async Task UpdateBookAsync(Book book)

@@ -23,6 +23,20 @@ namespace WebAPI_BookStoreManagement.Controllers
             return Ok(books);
         }
 
+        [HttpGet("booksbypub/{idpub}")]
+        public async Task<IActionResult> GetAllBookByPublisherAsync(int idpub)
+        {
+            var books = await _bookService.GetAllBookByPublisherAsync(idpub);
+            return Ok(books);
+        }
+
+        [HttpGet("searchbooksbypub/{idpub}, {namebook}")]
+        public async Task<IActionResult> SearchBookByPublisherAsync(int idpub, string namebook)
+        {
+            var books = await _bookService.SearchBookByPublisherAsync(idpub, namebook);
+            return Ok(books);
+        }
+
         [HttpGet("{id}")]
         public async Task<IActionResult> GetBookByIdAsync(string id)
         {

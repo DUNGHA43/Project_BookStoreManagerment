@@ -309,6 +309,7 @@
             // cbxStaff
             // 
             cbxStaff.Anchor = System.Windows.Forms.AnchorStyles.None;
+            cbxStaff.Enabled = false;
             cbxStaff.FormattingEnabled = true;
             cbxStaff.Location = new System.Drawing.Point(433, 88);
             cbxStaff.Name = "cbxStaff";

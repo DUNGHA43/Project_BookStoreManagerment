@@ -14,18 +14,20 @@ namespace MainMenu
 {
     public partial class frmMainMenu : DevExpress.XtraBars.FluentDesignSystem.FluentDesignForm
     {
-        uiPersonnelMNG uiPersonnelMNG;
-        uiAccountsMNG uiAccountsMNG;
-        uiBookReceipts uiBookReceipts;
-        uiBookSalesInvoice uiBookSalesInvoice;
-        uiBooks uiBooks;
-        uiPublisherMNG uiPublisherMNG;
-        uiAuthorMNG uiAuthorMNG;
-        uiCategory uiCategory;
+        private  uiPersonnelMNG uiPersonnelMNG;
+        private  uiAccountsMNG uiAccountsMNG;
+        private  uiBookReceipts uiBookReceipts;
+        private  uiBookSalesInvoice uiBookSalesInvoice;
+        private  uiBooks uiBooks;
+        private  uiPublisherMNG uiPublisherMNG;
+        private  uiAuthorMNG uiAuthorMNG;
+        private  uiCategory uiCategory;
+        private readonly string _idstaff;
 
-        public frmMainMenu(string user, string roleacc)
+        public frmMainMenu(string user, string roleacc, string idstaff)
         {
             InitializeComponent();
+            _idstaff = idstaff;
             title.Caption = $"Chúc một ngày làm việc vui vẻ: {user}";
         }
 
@@ -73,7 +75,7 @@ namespace MainMenu
         {
             if (uiBookReceipts == null)
             {
-                uiBookReceipts = new uiBookReceipts();
+                uiBookReceipts = new uiBookReceipts(_idstaff);
                 uiBookReceipts.Dock = DockStyle.Fill;
                 containerShow.Controls.Add(uiBookReceipts);
                 uiBookReceipts.BringToFront();

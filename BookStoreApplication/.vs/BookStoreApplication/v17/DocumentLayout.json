@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{03865401-D1CA-4876-8D5A-B1A020D4C0A2}|MainMenu\\GUI.csproj|C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\mainmenu\\ui\\uibookreceipts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{03865401-D1CA-4876-8D5A-B1A020D4C0A2}|MainMenu\\GUI.csproj|solutionrelative:mainmenu\\ui\\uibookreceipts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03865401-D1CA-4876-8D5A-B1A020D4C0A2}|MainMenu\\GUI.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\bookstoreapplication\\mainmenu\\ui\\uibookreceipts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03865401-D1CA-4876-8D5A-B1A020D4C0A2}|MainMenu\\GUI.csproj|solutionrelative:mainmenu\\ui\\uibookreceipts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03865401-D1CA-4876-8D5A-B1A020D4C0A2}|MainMenu\\GUI.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\bookstoreapplication\\mainmenu\\ui\\uiaccountsmng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03865401-D1CA-4876-8D5A-B1A020D4C0A2}|MainMenu\\GUI.csproj|solutionrelative:mainmenu\\ui\\uiaccountsmng.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8C021657-18D9-461B-B9AD-DDE1BAE0A8E6}|DAL\\DAL.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\bookstoreapplication\\dal\\bookreceiptdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C021657-18D9-461B-B9AD-DDE1BAE0A8E6}|DAL\\DAL.csproj|solutionrelative:dal\\bookreceiptdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C021657-18D9-461B-B9AD-DDE1BAE0A8E6}|DAL\\DAL.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\bookstoreapplication\\dal\\bookreceiptdetaildal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C021657-18D9-461B-B9AD-DDE1BAE0A8E6}|DAL\\DAL.csproj|solutionrelative:dal\\bookreceiptdetaildal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD14157-008D-4DF0-A8AF-576CC6F132AA}|BLL\\BLL.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\bookstoreapplication\\bll\\bookreceiptdetailbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DD14157-008D-4DF0-A8AF-576CC6F132AA}|BLL\\BLL.csproj|solutionrelative:bll\\bookreceiptdetailbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03865401-D1CA-4876-8D5A-B1A020D4C0A2}|MainMenu\\GUI.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\bookstoreapplication\\mainmenu\\ui\\frmbookreceiptdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03865401-D1CA-4876-8D5A-B1A020D4C0A2}|MainMenu\\GUI.csproj|solutionrelative:mainmenu\\ui\\frmbookreceiptdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2DD14157-008D-4DF0-A8AF-576CC6F132AA}|BLL\\BLL.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\bookstoreapplication\\bll\\bookreceiptbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,6 +25,34 @@
     {
       "AbsoluteMoniker": "D:0:0:{8C021657-18D9-461B-B9AD-DDE1BAE0A8E6}|DAL\\DAL.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\bookstoreapplication\\dal\\accountdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C021657-18D9-461B-B9AD-DDE1BAE0A8E6}|DAL\\DAL.csproj|solutionrelative:dal\\accountdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C021657-18D9-461B-B9AD-DDE1BAE0A8E6}|DAL\\DAL.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\bookstoreapplication\\dal\\publisherdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C021657-18D9-461B-B9AD-DDE1BAE0A8E6}|DAL\\DAL.csproj|solutionrelative:dal\\publisherdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03865401-D1CA-4876-8D5A-B1A020D4C0A2}|MainMenu\\GUI.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\bookstoreapplication\\mainmenu\\ui\\frmbookreceiptdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{03865401-D1CA-4876-8D5A-B1A020D4C0A2}|MainMenu\\GUI.csproj|solutionrelative:mainmenu\\ui\\frmbookreceiptdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C021657-18D9-461B-B9AD-DDE1BAE0A8E6}|DAL\\DAL.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\bookstoreapplication\\dal\\bookdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C021657-18D9-461B-B9AD-DDE1BAE0A8E6}|DAL\\DAL.csproj|solutionrelative:dal\\bookdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD14157-008D-4DF0-A8AF-576CC6F132AA}|BLL\\BLL.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\bookstoreapplication\\bll\\bookbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DD14157-008D-4DF0-A8AF-576CC6F132AA}|BLL\\BLL.csproj|solutionrelative:bll\\bookbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03865401-D1CA-4876-8D5A-B1A020D4C0A2}|MainMenu\\GUI.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\bookstoreapplication\\mainmenu\\ui\\uibookreceipts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03865401-D1CA-4876-8D5A-B1A020D4C0A2}|MainMenu\\GUI.csproj|solutionrelative:mainmenu\\ui\\uibookreceipts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03865401-D1CA-4876-8D5A-B1A020D4C0A2}|MainMenu\\GUI.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\bookstoreapplication\\mainmenu\\ui\\uibookreceipts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{03865401-D1CA-4876-8D5A-B1A020D4C0A2}|MainMenu\\GUI.csproj|solutionrelative:mainmenu\\ui\\uibookreceipts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9D0B5C7-8101-48E2-B3DF-1032F4F6B78F}|DTO\\DTO.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\bookstoreapplication\\dto\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9D0B5C7-8101-48E2-B3DF-1032F4F6B78F}|DTO\\DTO.csproj|solutionrelative:dto\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,27 +70,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "uiBookReceipts.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\MainMenu\\UI\\uiBookReceipts.cs",
-              "RelativeDocumentMoniker": "MainMenu\\UI\\uiBookReceipts.cs",
-              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\MainMenu\\UI\\uiBookReceipts.cs [Design]",
-              "RelativeToolTip": "MainMenu\\UI\\uiBookReceipts.cs [Design]",
+              "DocumentIndex": 8,
+              "Title": "BookDAL.cs",
+              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\DAL\\BookDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\BookDAL.cs",
+              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\DAL\\BookDAL.cs",
+              "RelativeToolTip": "DAL\\BookDAL.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAuwEsAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T16:02:20.571Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "uiAccountsMNG.cs",
-              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\MainMenu\\UI\\uiAccountsMNG.cs",
-              "RelativeDocumentMoniker": "MainMenu\\UI\\uiAccountsMNG.cs",
-              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\MainMenu\\UI\\uiAccountsMNG.cs",
-              "RelativeToolTip": "MainMenu\\UI\\uiAccountsMNG.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAUwH0AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T15:51:21.838Z"
+              "WhenOpened": "2024-12-13T06:42:22.181Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -72,21 +89,87 @@
               "RelativeDocumentMoniker": "DAL\\AccountDAL.cs",
               "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\DAL\\AccountDAL.cs",
               "RelativeToolTip": "DAL\\AccountDAL.cs",
-              "ViewState": "AgIAAJYAAAAAAAAAAAAxwLgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAxwKMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T15:43:05.388Z"
+              "WhenOpened": "2024-12-11T15:43:05.388Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "uiBookReceipts.cs",
-              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\MainMenu\\UI\\uiBookReceipts.cs",
-              "RelativeDocumentMoniker": "MainMenu\\UI\\uiBookReceipts.cs",
-              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\MainMenu\\UI\\uiBookReceipts.cs",
-              "RelativeToolTip": "MainMenu\\UI\\uiBookReceipts.cs",
-              "ViewState": "AgIAALcAAAAAAAAAAAAWwOwAAAANAAAAAAAAAA==",
+              "Title": "BookReceiptDetailDAL.cs",
+              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\DAL\\BookReceiptDetailDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\BookReceiptDetailDAL.cs",
+              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\DAL\\BookReceiptDetailDAL.cs",
+              "RelativeToolTip": "DAL\\BookReceiptDetailDAL.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAADwv0sAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T15:40:51.079Z",
+              "WhenOpened": "2024-12-13T06:34:57.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookReceiptDAL.cs",
+              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\DAL\\BookReceiptDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\BookReceiptDAL.cs",
+              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\DAL\\BookReceiptDAL.cs",
+              "RelativeToolTip": "DAL\\BookReceiptDAL.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAxwLMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T08:23:09.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PublisherDAL.cs",
+              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\DAL\\PublisherDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\PublisherDAL.cs",
+              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\DAL\\PublisherDAL.cs",
+              "RelativeToolTip": "DAL\\PublisherDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T08:40:23.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookReceiptDetailBLL.cs",
+              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\BLL\\BookReceiptDetailBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\BookReceiptDetailBLL.cs",
+              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\BLL\\BookReceiptDetailBLL.cs",
+              "RelativeToolTip": "BLL\\BookReceiptDetailBLL.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAIwCAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T06:47:23.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmBookReceiptDetail.cs",
+              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\MainMenu\\UI\\frmBookReceiptDetail.cs",
+              "RelativeDocumentMoniker": "MainMenu\\UI\\frmBookReceiptDetail.cs",
+              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\MainMenu\\UI\\frmBookReceiptDetail.cs",
+              "RelativeToolTip": "MainMenu\\UI\\frmBookReceiptDetail.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAuwKEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T05:22:22.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BookBLL.cs",
+              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\BLL\\BookBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\BookBLL.cs",
+              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\BLL\\BookBLL.cs",
+              "RelativeToolTip": "BLL\\BookBLL.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T06:45:32.048Z",
               "EditorCaption": ""
             },
             {
@@ -97,21 +180,60 @@
               "RelativeDocumentMoniker": "BLL\\BookReceiptBLL.cs",
               "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\BLL\\BookReceiptBLL.cs",
               "RelativeToolTip": "BLL\\BookReceiptBLL.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T15:40:43.104Z"
+              "WhenOpened": "2024-12-11T15:40:43.104Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BookReceiptDAL.cs",
-              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\DAL\\BookReceiptDAL.cs",
-              "RelativeDocumentMoniker": "DAL\\BookReceiptDAL.cs",
-              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\DAL\\BookReceiptDAL.cs",
-              "RelativeToolTip": "DAL\\BookReceiptDAL.cs",
-              "ViewState": "AgIAAHkAAAAAAAAAAAAAwJ0AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "uiBookReceipts.cs",
+              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\MainMenu\\UI\\uiBookReceipts.cs",
+              "RelativeDocumentMoniker": "MainMenu\\UI\\uiBookReceipts.cs",
+              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\MainMenu\\UI\\uiBookReceipts.cs",
+              "RelativeToolTip": "MainMenu\\UI\\uiBookReceipts.cs",
+              "ViewState": "AgIAAOUAAAAAAAAAAAAxwHEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T15:40:35.913Z"
+              "WhenOpened": "2024-12-11T15:40:51.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmBookReceiptDetail.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\MainMenu\\UI\\frmBookReceiptDetail.cs",
+              "RelativeDocumentMoniker": "MainMenu\\UI\\frmBookReceiptDetail.cs",
+              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\MainMenu\\UI\\frmBookReceiptDetail.cs [Design]",
+              "RelativeToolTip": "MainMenu\\UI\\frmBookReceiptDetail.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T06:48:51.74Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "uiBookReceipts.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\MainMenu\\UI\\uiBookReceipts.cs",
+              "RelativeDocumentMoniker": "MainMenu\\UI\\uiBookReceipts.cs",
+              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\MainMenu\\UI\\uiBookReceipts.cs [Design]",
+              "RelativeToolTip": "MainMenu\\UI\\uiBookReceipts.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T05:04:53.163Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BookDTO.cs",
+              "DocumentMoniker": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\DTO\\BookDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\BookDTO.cs",
+              "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\DTO\\BookDTO.cs",
+              "RelativeToolTip": "DTO\\BookDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T06:41:47.805Z",
+              "EditorCaption": ""
             }
           ]
         }
