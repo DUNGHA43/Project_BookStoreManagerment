@@ -36,5 +36,24 @@ namespace BLL
         {
             return await _book.SearchBookByNameAsync(namebook);
         }
+        public async Task<IEnumerable<BookDTO>> SearchBooksAsync(string namebook, string cate, string pub, string author)
+        {
+            return await _book.SearchBooksAsync(namebook, cate, pub, author);
+        }
+
+        public async Task<bool> AddBookAsync(BookDTO bookDTO)
+        {
+            return await _book.AddAsync(bookDTO);
+        }
+
+        public async Task<bool> UpdateBookAsync(BookDTO bookDTO)
+        {
+            return await _book.UpdateAsync(bookDTO);
+        }
+
+        public async Task<bool> DeleteBookAsync(string id)
+        {
+            return await _book.DeleteAsync(id);
+        }
     }
 }

@@ -42,7 +42,7 @@ namespace WebAPI_BookStoreManagement.Services
             return await _unitOfWork.Books.GetByIdAsync(id);
         }
 
-        public async Task<IEnumerable<Book>> SearchBookAsync(string namebook, string cate, string pub, string author)
+        public async Task<IEnumerable<Book>> SearchBookAsync(string? namebook, string? cate, string? pub, string? author)
         {
             return await _unitOfWork.Books.SearchBookAsync(namebook, cate, pub, author);
         }

@@ -44,10 +44,10 @@ namespace WebAPI_BookStoreManagement.Controllers
             return Ok(books);
         }
 
-        [HttpGet("{namebook}, {cate}, {pub}, {author}")]
-        public async Task<IActionResult> SearchBookAsync(string namebook, string cate, string pub, string author)
+        [HttpGet("{namebook},{cate},{pub},{author}")]
+        public async Task<IActionResult> SearchBookAsync(string? namebook, string? cate, string? pub, string? author)
         {
-            var books = await _bookService.SearchBookAsync(namebook, cate, pub, author);
+            var books = await _bookService.SearchBookAsync(namebook ?? " ", cate ?? " ", pub ?? " ", author ?? " ");
             return Ok(books);
         }
 
@@ -93,7 +93,6 @@ namespace WebAPI_BookStoreManagement.Controllers
             if (existingBook == null)
                 return NotFound($"Book with ID {id} not found.");
 
-            existingBook.id = bookDTO.id ?? existingBook.id;
             existingBook.namebook = bookDTO.namebook ?? existingBook.namebook;
             existingBook.quanlitystock = bookDTO.quanlitystock ?? existingBook.quanlitystock;
             existingBook.importprice = bookDTO.importprice ?? existingBook.importprice;

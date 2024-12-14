@@ -66,9 +66,9 @@
             txtNameBook = new DevExpress.XtraEditors.TextEdit();
             label7 = new System.Windows.Forms.Label();
             groupControl1 = new DevExpress.XtraEditors.GroupControl();
-            txtAuthor = new System.Windows.Forms.ComboBox();
+            cbxAuthor = new System.Windows.Forms.ComboBox();
             cbxCategory = new System.Windows.Forms.ComboBox();
-            txtPublisher = new System.Windows.Forms.ComboBox();
+            cbxPublisher = new System.Windows.Forms.ComboBox();
             label8 = new System.Windows.Forms.Label();
             label5 = new System.Windows.Forms.Label();
             txtRetailPrice = new DevExpress.XtraEditors.TextEdit();
@@ -169,6 +169,7 @@
             btnSearch.TabIndex = 0;
             btnSearch.Text = "Tìm kiếm";
             btnSearch.UseVisualStyleBackColor = true;
+            btnSearch.Click += btnSearch_Click_1;
             // 
             // panel1
             // 
@@ -307,6 +308,7 @@
             btnAdd.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             btnAdd.ItemAppearance.Normal.Options.UseFont = true;
             btnAdd.Name = "btnAdd";
+            btnAdd.ItemClick += btnAdd_ItemClick;
             // 
             // btnUpdate
             // 
@@ -317,6 +319,7 @@
             btnUpdate.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             btnUpdate.ItemAppearance.Normal.Options.UseFont = true;
             btnUpdate.Name = "btnUpdate";
+            btnUpdate.ItemClick += btnUpdate_ItemClick;
             // 
             // btnDelete
             // 
@@ -327,6 +330,7 @@
             btnDelete.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             btnDelete.ItemAppearance.Normal.Options.UseFont = true;
             btnDelete.Name = "btnDelete";
+            btnDelete.ItemClick += btnDelete_ItemClick;
             // 
             // btnSave
             // 
@@ -337,6 +341,7 @@
             btnSave.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             btnSave.ItemAppearance.Normal.Options.UseFont = true;
             btnSave.Name = "btnSave";
+            btnSave.ItemClick += btnSave_ItemClick;
             // 
             // btnCancel
             // 
@@ -347,6 +352,7 @@
             btnCancel.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             btnCancel.ItemAppearance.Normal.Options.UseFont = true;
             btnCancel.Name = "btnCancel";
+            btnCancel.ItemClick += btnCancel_ItemClick;
             // 
             // btnClose
             // 
@@ -357,6 +363,7 @@
             btnClose.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             btnClose.ItemAppearance.Normal.Options.UseFont = true;
             btnClose.Name = "btnClose";
+            btnClose.ItemClick += btnClose_ItemClick;
             // 
             // barDockControl1
             // 
@@ -394,7 +401,10 @@
             // 
             gvBooks.GridControl = gcBooks;
             gvBooks.Name = "gvBooks";
+            gvBooks.OptionsBehavior.Editable = false;
+            gvBooks.OptionsBehavior.ReadOnly = true;
             gvBooks.OptionsView.ShowGroupPanel = false;
+            gvBooks.RowClick += gvBooks_RowClick;
             // 
             // gcBooks
             // 
@@ -447,9 +457,9 @@
             // 
             groupControl1.AppearanceCaption.BorderColor = DevExpress.LookAndFeel.DXSkinColors.FillColors.Primary;
             groupControl1.AppearanceCaption.Options.UseBorderColor = true;
-            groupControl1.Controls.Add(txtAuthor);
+            groupControl1.Controls.Add(cbxAuthor);
             groupControl1.Controls.Add(cbxCategory);
-            groupControl1.Controls.Add(txtPublisher);
+            groupControl1.Controls.Add(cbxPublisher);
             groupControl1.Controls.Add(label8);
             groupControl1.Controls.Add(label5);
             groupControl1.Controls.Add(txtRetailPrice);
@@ -470,14 +480,14 @@
             groupControl1.TabIndex = 8;
             groupControl1.Text = "THÔNG TIN SÁCH";
             // 
-            // txtAuthor
+            // cbxAuthor
             // 
-            txtAuthor.Anchor = System.Windows.Forms.AnchorStyles.None;
-            txtAuthor.FormattingEnabled = true;
-            txtAuthor.Location = new System.Drawing.Point(725, 109);
-            txtAuthor.Name = "txtAuthor";
-            txtAuthor.Size = new System.Drawing.Size(142, 21);
-            txtAuthor.TabIndex = 21;
+            cbxAuthor.Anchor = System.Windows.Forms.AnchorStyles.None;
+            cbxAuthor.FormattingEnabled = true;
+            cbxAuthor.Location = new System.Drawing.Point(725, 109);
+            cbxAuthor.Name = "cbxAuthor";
+            cbxAuthor.Size = new System.Drawing.Size(142, 21);
+            cbxAuthor.TabIndex = 21;
             // 
             // cbxCategory
             // 
@@ -488,14 +498,14 @@
             cbxCategory.Size = new System.Drawing.Size(142, 21);
             cbxCategory.TabIndex = 20;
             // 
-            // txtPublisher
+            // cbxPublisher
             // 
-            txtPublisher.Anchor = System.Windows.Forms.AnchorStyles.None;
-            txtPublisher.FormattingEnabled = true;
-            txtPublisher.Location = new System.Drawing.Point(725, 78);
-            txtPublisher.Name = "txtPublisher";
-            txtPublisher.Size = new System.Drawing.Size(142, 21);
-            txtPublisher.TabIndex = 19;
+            cbxPublisher.Anchor = System.Windows.Forms.AnchorStyles.None;
+            cbxPublisher.FormattingEnabled = true;
+            cbxPublisher.Location = new System.Drawing.Point(725, 78);
+            cbxPublisher.Name = "cbxPublisher";
+            cbxPublisher.Size = new System.Drawing.Size(142, 21);
+            cbxPublisher.TabIndex = 19;
             // 
             // label8
             // 
@@ -524,6 +534,7 @@
             // txtRetailPrice
             // 
             txtRetailPrice.Anchor = System.Windows.Forms.AnchorStyles.None;
+            txtRetailPrice.EditValue = "0";
             txtRetailPrice.Location = new System.Drawing.Point(432, 107);
             txtRetailPrice.MenuManager = barManager2;
             txtRetailPrice.Name = "txtRetailPrice";
@@ -547,6 +558,7 @@
             // txtImportPrice
             // 
             txtImportPrice.Anchor = System.Windows.Forms.AnchorStyles.None;
+            txtImportPrice.EditValue = "0";
             txtImportPrice.Location = new System.Drawing.Point(432, 76);
             txtImportPrice.MenuManager = barManager2;
             txtImportPrice.Name = "txtImportPrice";
@@ -708,8 +720,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.ComboBox txtPublisher;
-        private System.Windows.Forms.ComboBox txtAuthor;
+        private System.Windows.Forms.ComboBox cbxPublisher;
+        private System.Windows.Forms.ComboBox cbxAuthor;
         private System.Windows.Forms.ComboBox cbxCategory;
         private System.Windows.Forms.Label label12;
         private DevExpress.XtraEditors.TextEdit txtSearchPublisher;

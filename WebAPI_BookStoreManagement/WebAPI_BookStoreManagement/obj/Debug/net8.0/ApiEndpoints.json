@@ -260,7 +260,7 @@
   {
     "ContainingType": "WebAPI_BookStoreManagement.Controllers.BookController",
     "Method": "SearchBookAsync",
-    "RelativePath": "api/Book/{namebook}, {cate}, {pub}, {author}",
+    "RelativePath": "api/Book/{namebook},{cate},{pub},{author}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
