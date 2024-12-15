@@ -27,7 +27,7 @@
       "RelativeMoniker": "D:0:0:{8C021657-18D9-461B-B9AD-DDE1BAE0A8E6}|DAL\\DAL.csproj|solutionrelative:dal\\bookdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03865401-D1CA-4876-8D5A-B1A020D4C0A2}|MainMenu\\GUI.csproj|c:\\users\\dungh\\documents\\\u0111\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\project\\bookstoreapplication\\mainmenu\\ui\\uibooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{03865401-D1CA-4876-8D5A-B1A020D4C0A2}|MainMenu\\GUI.csproj|C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\mainmenu\\ui\\uibooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{03865401-D1CA-4876-8D5A-B1A020D4C0A2}|MainMenu\\GUI.csproj|solutionrelative:mainmenu\\ui\\uibooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -54,8 +54,7 @@
               "RelativeToolTip": "MainMenu\\UI\\uiPersonnelMNG.cs",
               "ViewState": "AgIAAL0AAAAAAAAAAAAIwNIAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T10:11:51.963Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T10:11:51.963Z"
             },
             {
               "$type": "Document",
@@ -65,7 +64,7 @@
               "RelativeDocumentMoniker": "BLL\\BookBLL.cs",
               "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\BLL\\BookBLL.cs",
               "RelativeToolTip": "BLL\\BookBLL.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAcwDEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAcwCIAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-14T10:10:39.857Z",
               "EditorCaption": ""
@@ -80,8 +79,7 @@
               "RelativeToolTip": "BLL\\StaffBLL.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAcwCoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T10:10:27.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T10:10:27.104Z"
             },
             {
               "$type": "Document",
@@ -93,8 +91,7 @@
               "RelativeToolTip": "DAL\\StaffDAL.cs",
               "ViewState": "AgIAAIUAAAAAAAAAAAAywKAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T10:06:14.271Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T10:06:14.271Z"
             },
             {
               "$type": "Document",
@@ -106,8 +103,7 @@
               "RelativeToolTip": "DAL\\BookDAL.cs",
               "ViewState": "AgIAAKAAAAAAAAAAAAAgwI4AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T10:05:57.032Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T10:05:57.032Z"
             },
             {
               "$type": "Document",
@@ -118,8 +114,7 @@
               "ToolTip": "C:\\Users\\dungh\\Documents\\\u0110\u1ED3 \u00E1n chuy\u00EAn ng\u00E0nh 2\\Project\\BookStoreApplication\\MainMenu\\UI\\uiBooks.cs [Design]",
               "RelativeToolTip": "MainMenu\\UI\\uiBooks.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T09:52:31.316Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-14T09:52:31.316Z"
             },
             {
               "$type": "Document",
@@ -131,8 +126,7 @@
               "RelativeToolTip": "MainMenu\\UI\\uiBooks.cs",
               "ViewState": "AgIAAOIAAAAAAAAAAAAswKAAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T08:51:13.747Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T08:51:13.747Z"
             }
           ]
         }

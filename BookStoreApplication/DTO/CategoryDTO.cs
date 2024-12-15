@@ -10,5 +10,6 @@ namespace DTO
     {
         public int? id { get; set; }
         public string? namecategory { get; set; }
+
     }
 }
