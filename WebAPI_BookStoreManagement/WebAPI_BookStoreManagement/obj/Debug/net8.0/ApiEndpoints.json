@@ -127,22 +127,6 @@
   },
   {
     "ContainingType": "WebAPI_BookStoreManagement.Controllers.AuthorController",
-    "Method": "GetAuthorByIdAsync",
-    "RelativePath": "api/Author/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebAPI_BookStoreManagement.Controllers.AuthorController",
     "Method": "UpdateAuthorAsync",
     "RelativePath": "api/Author/{id}",
     "HttpMethod": "PUT",
@@ -173,6 +157,22 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI_BookStoreManagement.Controllers.AuthorController",
+    "Method": "GetAuthorByNameAsync",
+    "RelativePath": "api/Author/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
@@ -764,22 +764,6 @@
   },
   {
     "ContainingType": "WebAPI_BookStoreManagement.Controllers.PublisherController",
-    "Method": "GetPublisherByIdAsync",
-    "RelativePath": "api/Publisher/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebAPI_BookStoreManagement.Controllers.PublisherController",
     "Method": "UpdatePublisherAsync",
     "RelativePath": "api/Publisher/{id}",
     "HttpMethod": "PUT",
@@ -810,6 +794,22 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI_BookStoreManagement.Controllers.PublisherController",
+    "Method": "GetPublisherByNameAsync",
+    "RelativePath": "api/Publisher/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],

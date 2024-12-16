@@ -37,6 +37,11 @@ namespace WebAPI_BookStoreManagement.Services
             return await _unitOfWork.Author.GetByIdAsync(id);
         }
 
+        public async Task<IEnumerable<Author>> SearchAuthorByName(string name)
+        {
+            return await _unitOfWork.Author.SearchAuthorByName(name);
+        }
+
         public async Task UpdateAuthorAsync(Author author)
         {
             _unitOfWork.Author.UpdateAsync(author);

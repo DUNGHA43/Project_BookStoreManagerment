@@ -23,10 +23,10 @@ namespace WebAPI_BookStoreManagement.Controllers
             return Ok(authors);
         }
 
-        [HttpGet("{id}")]
-        public async Task<IActionResult> GetAuthorByIdAsync(int id)
+        [HttpGet("{name}")]
+        public async Task<IActionResult> GetAuthorByNameAsync(string name)
         {
-            var author = await _authorService.GetAuthorByIdAsync(id);
+            var author = await _authorService.SearchAuthorByName(name);
             if (author == null)
                 return NotFound();
 

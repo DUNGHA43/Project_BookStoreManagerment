@@ -9,5 +9,6 @@ namespace WebAPI_BookStoreManagement.Services
         Task AddPublisherAsync(Publisher publisher);
         Task UpdatePublisherAsync(Publisher publisher);
         Task DeletePublisherAsync(int id);
+        Task<IEnumerable<Publisher>> SearchPubByName(string name);
     }
 }

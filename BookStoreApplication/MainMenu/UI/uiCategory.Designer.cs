@@ -214,6 +214,8 @@
             // 
             gvCategory.GridControl = gcCategory;
             gvCategory.Name = "gvCategory";
+            gvCategory.OptionsBehavior.Editable = false;
+            gvCategory.OptionsBehavior.ReadOnly = true;
             gvCategory.OptionsView.ShowGroupPanel = false;
             // 
             // gcCategory

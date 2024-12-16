@@ -98,6 +98,7 @@
             btnAdd.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             btnAdd.ItemAppearance.Normal.Options.UseFont = true;
             btnAdd.Name = "btnAdd";
+            btnAdd.ItemClick += btnAdd_ItemClick;
             // 
             // btnUpdate
             // 
@@ -108,6 +109,7 @@
             btnUpdate.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             btnUpdate.ItemAppearance.Normal.Options.UseFont = true;
             btnUpdate.Name = "btnUpdate";
+            btnUpdate.ItemClick += btnUpdate_ItemClick;
             // 
             // btnDelete
             // 
@@ -118,6 +120,7 @@
             btnDelete.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             btnDelete.ItemAppearance.Normal.Options.UseFont = true;
             btnDelete.Name = "btnDelete";
+            btnDelete.ItemClick += btnDelete_ItemClick;
             // 
             // btnSave
             // 
@@ -128,6 +131,7 @@
             btnSave.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             btnSave.ItemAppearance.Normal.Options.UseFont = true;
             btnSave.Name = "btnSave";
+            btnSave.ItemClick += btnSave_ItemClick;
             // 
             // btnCancel
             // 
@@ -138,6 +142,7 @@
             btnCancel.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             btnCancel.ItemAppearance.Normal.Options.UseFont = true;
             btnCancel.Name = "btnCancel";
+            btnCancel.ItemClick += btnCancel_ItemClick;
             // 
             // btnClose
             // 
@@ -270,7 +275,10 @@
             // 
             gvAuthor.GridControl = gcAuthor;
             gvAuthor.Name = "gvAuthor";
+            gvAuthor.OptionsBehavior.Editable = false;
+            gvAuthor.OptionsBehavior.ReadOnly = true;
             gvAuthor.OptionsView.ShowGroupPanel = false;
+            gvAuthor.RowClick += gvAuthor_RowClick;
             // 
             // panel1
             // 
@@ -303,6 +311,7 @@
             btnSearch.TabIndex = 0;
             btnSearch.Text = "Tìm kiếm";
             btnSearch.UseVisualStyleBackColor = true;
+            btnSearch.Click += btnSearch_Click;
             // 
             // uiAuthorMNG
             // 

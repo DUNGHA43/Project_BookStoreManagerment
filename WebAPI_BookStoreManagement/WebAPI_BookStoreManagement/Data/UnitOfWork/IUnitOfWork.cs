@@ -8,8 +8,8 @@ namespace WebAPI_BookStoreManagement.Data.UnitOfWork
         IAccountRepository Account { get; }
         IStaffRepository Staff { get; }
         IRepository<Category> Categories { get; }
-        IRepository<Publisher> Publisher { get; }
-        IRepository<Author> Author { get; }
+        IPublisherRepository Publisher { get; }
+        IAuthorRepository Author { get; }
         IBookRepository Books { get; }
         IBookReceiptRepository BooksReceipt { get; }
         IBookReceiptDetailRepository BookReceiptDetail { get; }
