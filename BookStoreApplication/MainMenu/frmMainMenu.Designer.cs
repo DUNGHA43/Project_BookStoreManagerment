@@ -175,6 +175,7 @@
             btnShowStatisticsRececipt.Name = "btnShowStatisticsRececipt";
             btnShowStatisticsRececipt.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
             btnShowStatisticsRececipt.Text = "THỐNG KÊ NHẬP";
+            btnShowStatisticsRececipt.Click += btnShowStatisticsRececipt_Click;
             // 
             // btnShowStatisticsInvoice
             // 
@@ -182,6 +183,7 @@
             btnShowStatisticsInvoice.Name = "btnShowStatisticsInvoice";
             btnShowStatisticsInvoice.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
             btnShowStatisticsInvoice.Text = "THỐNG KÊ XUẤT";
+            btnShowStatisticsInvoice.Click += btnShowStatisticsInvoice_Click;
             // 
             // btnShowStatisticsRevenue
             // 
@@ -189,6 +191,7 @@
             btnShowStatisticsRevenue.Name = "btnShowStatisticsRevenue";
             btnShowStatisticsRevenue.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
             btnShowStatisticsRevenue.Text = "THỐNG KÊ DOANH THU";
+            btnShowStatisticsRevenue.Click += btnShowStatisticsRevenue_Click;
             // 
             // ControlElement5
             // 

@@ -8,6 +8,9 @@
     <Compile Update="frmMainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="UI\uiRevenueReports.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UI\frmBookReceiptDetail.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -32,6 +35,9 @@
     <Compile Update="UI\uiCategory.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="UI\uiInvoiceReports.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UI\uiPersonnelMNG.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -39,6 +45,9 @@
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="UI\uiPublisherMNG.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UI\uiReceiptReports.cs">
       <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>

@@ -14,14 +14,17 @@ namespace MainMenu
 {
     public partial class frmMainMenu : DevExpress.XtraBars.FluentDesignSystem.FluentDesignForm
     {
-        private  uiPersonnelMNG uiPersonnelMNG;
-        private  uiAccountsMNG uiAccountsMNG;
-        private  uiBookReceipts uiBookReceipts;
-        private  uiBookSalesInvoice uiBookSalesInvoice;
-        private  uiBooks uiBooks;
-        private  uiPublisherMNG uiPublisherMNG;
-        private  uiAuthorMNG uiAuthorMNG;
-        private  uiCategory uiCategory;
+        private uiPersonnelMNG uiPersonnelMNG;
+        private uiAccountsMNG uiAccountsMNG;
+        private uiBookReceipts uiBookReceipts;
+        private uiBookSalesInvoice uiBookSalesInvoice;
+        private uiBooks uiBooks;
+        private uiPublisherMNG uiPublisherMNG;
+        private uiAuthorMNG uiAuthorMNG;
+        private uiCategory uiCategory;
+        private uiReceiptReports uiReceiptReports;
+        private uiInvoiceReports uiInvoiceReports;
+        private uiRevenueReports uiRevenueReports;
         private readonly string _idstaff;
         private readonly string _user;
 
@@ -173,6 +176,54 @@ namespace MainMenu
                 uiAuthorMNG.BringToFront();
             }
             title.Caption = btnShowAuthor.Text;
+        }
+
+        private void btnShowStatisticsRececipt_Click(object sender, EventArgs e)
+        {
+            if (uiReceiptReports == null)
+            {
+                uiReceiptReports = new uiReceiptReports();
+                uiReceiptReports.Dock = DockStyle.Fill;
+                containerShow.Controls.Add(uiReceiptReports);
+                uiReceiptReports.BringToFront();
+            }
+            else
+            {
+                uiReceiptReports.BringToFront();
+            }
+            title.Caption = btnShowStatisticsRececipt.Text;
+        }
+
+        private void btnShowStatisticsInvoice_Click(object sender, EventArgs e)
+        {
+            if (uiInvoiceReports == null)
+            {
+                uiInvoiceReports = new uiInvoiceReports();
+                uiInvoiceReports.Dock = DockStyle.Fill;
+                containerShow.Controls.Add(uiInvoiceReports);
+                uiInvoiceReports.BringToFront();
+            }
+            else
+            {
+                uiInvoiceReports.BringToFront();
+            }
+            title.Caption = btnShowStatisticsInvoice.Text;
+        }
+
+        private void btnShowStatisticsRevenue_Click(object sender, EventArgs e)
+        {
+            if (uiRevenueReports == null)
+            {
+                uiRevenueReports = new uiRevenueReports();
+                uiRevenueReports.Dock = DockStyle.Fill;
+                containerShow.Controls.Add(uiRevenueReports);
+                uiRevenueReports.BringToFront();
+            }
+            else
+            {
+                uiRevenueReports.BringToFront();
+            }
+            title.Caption = btnShowStatisticsRevenue.Text;
         }
     }
 }
