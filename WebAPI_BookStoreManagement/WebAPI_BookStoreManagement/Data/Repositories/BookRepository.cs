@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using WebAPI_BookManagement.Model;
 using WebAPI_BookStoreManagement.Data.DBContext;
 
@@ -16,6 +17,20 @@ namespace WebAPI_BookStoreManagement.Data.Repositories
         public async Task<IEnumerable<Book>> GetAllBooksByPublisherAsync(int? idpub)
         {
             return await _dbSet.Where(b => b.idpub == idpub).ToListAsync();
+        }
+
+        public async Task<int?> GetQuanlityBook(string? id)
+        {
+            if(id == null)
+            {
+                throw new Exception("Id is null!");
+            }
+            var book = await _dbSet.FindAsync(id);
+            if(book != null)
+            {
+                return book.quanlitystock;
+            }
+            return 0;
         }
 
         public async Task<IEnumerable<Book>> SearchBookAsync(string? namebook, string? cate, string? pub, string? author)

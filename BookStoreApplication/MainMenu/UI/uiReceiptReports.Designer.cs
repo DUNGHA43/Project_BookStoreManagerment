@@ -74,16 +74,16 @@
             panel1.Controls.Add(groupBox2);
             panel1.Controls.Add(groupBox1);
             panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            panel1.Location = new System.Drawing.Point(0, 439);
+            panel1.Location = new System.Drawing.Point(0, 463);
             panel1.Name = "panel1";
-            panel1.Size = new System.Drawing.Size(834, 144);
+            panel1.Size = new System.Drawing.Size(834, 120);
             panel1.TabIndex = 5;
             // 
             // btnClose
             // 
             btnClose.Anchor = System.Windows.Forms.AnchorStyles.None;
             btnClose.ImageOptions.Image = (System.Drawing.Image)resources.GetObject("btnClose.ImageOptions.Image");
-            btnClose.Location = new System.Drawing.Point(709, 39);
+            btnClose.Location = new System.Drawing.Point(709, 27);
             btnClose.Name = "btnClose";
             btnClose.Size = new System.Drawing.Size(71, 78);
             btnClose.TabIndex = 4;
@@ -92,7 +92,7 @@
             // 
             btnSatistical.Anchor = System.Windows.Forms.AnchorStyles.None;
             btnSatistical.ImageOptions.Image = (System.Drawing.Image)resources.GetObject("btnSatistical.ImageOptions.Image");
-            btnSatistical.Location = new System.Drawing.Point(522, 39);
+            btnSatistical.Location = new System.Drawing.Point(522, 27);
             btnSatistical.Name = "btnSatistical";
             btnSatistical.Size = new System.Drawing.Size(71, 78);
             btnSatistical.TabIndex = 3;
@@ -101,7 +101,7 @@
             // 
             btnPrint.Anchor = System.Windows.Forms.AnchorStyles.None;
             btnPrint.ImageOptions.Image = (System.Drawing.Image)resources.GetObject("btnPrint.ImageOptions.Image");
-            btnPrint.Location = new System.Drawing.Point(617, 39);
+            btnPrint.Location = new System.Drawing.Point(617, 27);
             btnPrint.Name = "btnPrint";
             btnPrint.Size = new System.Drawing.Size(71, 78);
             btnPrint.TabIndex = 2;
@@ -115,7 +115,7 @@
             groupBox2.Controls.Add(label1);
             groupBox2.Controls.Add(cbxY);
             groupBox2.Controls.Add(cbxM);
-            groupBox2.Location = new System.Drawing.Point(208, 22);
+            groupBox2.Location = new System.Drawing.Point(208, 10);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new System.Drawing.Size(226, 105);
             groupBox2.TabIndex = 1;
@@ -188,7 +188,7 @@
             groupBox1.Controls.Add(rdoY);
             groupBox1.Controls.Add(rdoQ);
             groupBox1.Controls.Add(rdoM);
-            groupBox1.Location = new System.Drawing.Point(58, 30);
+            groupBox1.Location = new System.Drawing.Point(58, 18);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new System.Drawing.Size(97, 92);
             groupBox1.TabIndex = 0;
@@ -236,7 +236,7 @@
             chartReceipt.Dock = System.Windows.Forms.DockStyle.Fill;
             chartReceipt.Location = new System.Drawing.Point(0, 0);
             chartReceipt.Name = "chartReceipt";
-            chartReceipt.Size = new System.Drawing.Size(420, 414);
+            chartReceipt.Size = new System.Drawing.Size(420, 438);
             chartReceipt.TabIndex = 1;
             // 
             // chartControl1
@@ -244,7 +244,7 @@
             chartControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             chartControl1.Location = new System.Drawing.Point(0, 0);
             chartControl1.Name = "chartControl1";
-            chartControl1.Size = new System.Drawing.Size(420, 414);
+            chartControl1.Size = new System.Drawing.Size(420, 438);
             chartControl1.TabIndex = 0;
             // 
             // panel2
@@ -254,7 +254,7 @@
             panel2.Dock = System.Windows.Forms.DockStyle.Left;
             panel2.Location = new System.Drawing.Point(2, 23);
             panel2.Name = "panel2";
-            panel2.Size = new System.Drawing.Size(420, 414);
+            panel2.Size = new System.Drawing.Size(420, 438);
             panel2.TabIndex = 0;
             // 
             // gridView1
@@ -268,7 +268,7 @@
             gcTable.Location = new System.Drawing.Point(0, 0);
             gcTable.MainView = gvTable;
             gcTable.Name = "gcTable";
-            gcTable.Size = new System.Drawing.Size(410, 414);
+            gcTable.Size = new System.Drawing.Size(410, 438);
             gcTable.TabIndex = 0;
             gcTable.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] { gvTable, gridView1 });
             // 
@@ -284,7 +284,7 @@
             panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             panel3.Location = new System.Drawing.Point(422, 23);
             panel3.Name = "panel3";
-            panel3.Size = new System.Drawing.Size(410, 414);
+            panel3.Size = new System.Drawing.Size(410, 438);
             panel3.TabIndex = 1;
             // 
             // groupControl1
@@ -296,7 +296,7 @@
             groupControl1.Dock = System.Windows.Forms.DockStyle.Top;
             groupControl1.Location = new System.Drawing.Point(0, 0);
             groupControl1.Name = "groupControl1";
-            groupControl1.Size = new System.Drawing.Size(834, 439);
+            groupControl1.Size = new System.Drawing.Size(834, 463);
             groupControl1.TabIndex = 4;
             groupControl1.Text = "Thông tin thống kê nhập";
             // 

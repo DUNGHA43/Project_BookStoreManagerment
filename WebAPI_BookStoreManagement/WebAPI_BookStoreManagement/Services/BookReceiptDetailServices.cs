@@ -15,12 +15,16 @@ namespace WebAPI_BookStoreManagement.Services
         public async Task AddBookReceiptDetailAsync(BookReceiptDetail bookreceiptdetail)
         {
             var _bookreceiptdetail = await GetBookReceiptDetailByIdAsync(bookreceiptdetail.idreceipt, bookreceiptdetail.idbook);
-            if(_bookreceiptdetail != null)
+            var book = await _unitOfWork.Books.GetByIdAsync(bookreceiptdetail.idbook);
+            if (_bookreceiptdetail != null)
             {
                 _unitOfWork.BookReceiptDetail.UpdateAsync(bookreceiptdetail);
             }
             else
             {
+                book.quanlitystock += bookreceiptdetail.quanlity;
+                _unitOfWork.Books.UpdateAsync(book);
+
                 await _unitOfWork.BookReceiptDetail.AddAsync(bookreceiptdetail);
             }
 
@@ -36,6 +40,9 @@ namespace WebAPI_BookStoreManagement.Services
 
         public async Task DeleteBookReceiptDetailAsync(string idreceipt, string idbook)
         {
+            var book = await _unitOfWork.Books.GetByIdAsync(idbook);
+            var detail = await GetBookReceiptDetailByIdAsync(idreceipt, idbook);
+            book.quanlitystock -= detail.quanlity;
             await _unitOfWork.BookReceiptDetail.DeleteBookAsync(idreceipt, idbook);
             await _unitOfWork.SaveChangeAsync();
         }

@@ -19,6 +19,8 @@ namespace GUI.UI
         private string _idinvoice;
         private readonly BookBLL _book;
         private readonly BookInvoiceDetailBLL _detail;
+        private int? quanlity;
+        private int? quanlity_des;
         public frmBookSalesInvoiceDetail(string idinvoice)
         {
             InitializeComponent();
@@ -54,12 +56,20 @@ namespace GUI.UI
             this.Close();
         }
 
-        private void gvBooks_RowClick(object sender, DevExpress.XtraGrid.Views.Grid.RowClickEventArgs e)
+        private async void gvBooks_RowClick(object sender, DevExpress.XtraGrid.Views.Grid.RowClickEventArgs e)
         {
             var selectRow = gvBooks.GetFocusedRow() as BookDTO;
             if (selectRow != null)
             {
-                txtIDBook.Text = selectRow.id;
+                if(selectRow.quanlitystock == 0)
+                {
+                    MessageBox.Show("Sách trong kho đã hết!", "Cảnh báo!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    txtIDBook.Text = "";
+                }
+                else
+                {
+                    txtIDBook.Text = selectRow.id.Trim();
+                }
             }
         }
 
@@ -103,6 +113,7 @@ namespace GUI.UI
                     txtIDBook.Text = "";
                     MessageBox.Show("Lỗi!! Vui lòng gọi hỗ trợ viên!", "Cảnh báo!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
+                LoadAllBook();
             }
         }
 
@@ -118,9 +129,10 @@ namespace GUI.UI
                 txtIDBook.Text = "";
                 MessageBox.Show("Lỗi!! Vui lòng gọi hỗ trợ viên!", "Cảnh báo!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+            LoadAllBook();
         }
 
-        private void gvBookInvoiceDetail_RowClick(object sender, DevExpress.XtraGrid.Views.Grid.RowClickEventArgs e)
+        private async void gvBookInvoiceDetail_RowClick(object sender, DevExpress.XtraGrid.Views.Grid.RowClickEventArgs e)
         {
             var selectRow = gvBookInvoiceDetail.GetFocusedRow() as BookInvoiceDetailDTO;
             if (selectRow != null)

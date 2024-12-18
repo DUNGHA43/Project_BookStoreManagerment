@@ -51,6 +51,13 @@ namespace WebAPI_BookStoreManagement.Controllers
             return Ok(books);
         }
 
+        [HttpGet("quanlity/{id}")]
+        public async Task<IActionResult> GetQuanlityAsync(string? id)
+        {
+            var quanlity = await _bookService.GetQuanlityBookAsync(id);
+            return Ok(quanlity);
+        }
+
         [HttpGet("{id}")]
         public async Task<IActionResult> GetBookByIdAsync(string id)
         {

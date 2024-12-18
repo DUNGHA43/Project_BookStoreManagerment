@@ -13,5 +13,6 @@ namespace WebAPI_BookStoreManagement.Services
         Task AddBookAsync(Book book);
         Task UpdateBookAsync(Book book);
         Task DeleteBookAsync(string id);
+        Task<int?> GetQuanlityBookAsync(string? id);
     }
 }

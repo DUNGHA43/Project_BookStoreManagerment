@@ -43,6 +43,31 @@ namespace DAL
             }
         }
 
+        public async Task<int> GetQuanlityBookAsync(string? id)
+        {
+            try
+            {
+                string requestUrl = $"{_apiUrl}/quanlity/{id}";
+                HttpResponseMessage response = await _httpClient.GetAsync(requestUrl);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    string responsebody = await response.Content.ReadAsStringAsync();
+                    return Convert.ToInt32(responsebody);
+                }
+                else
+                {
+                    string errorResponse = await response.Content.ReadAsStringAsync();
+                    throw new Exception(errorResponse);
+                }
+            }
+            catch (Exception e)
+            {
+
+                throw new Exception(e.Message);
+            }
+        }
+
         public async Task<IEnumerable<BookDTO>> GetALlBookByPubAsync(int idpub)
         {
             try

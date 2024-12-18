@@ -306,6 +306,22 @@
   },
   {
     "ContainingType": "WebAPI_BookStoreManagement.Controllers.BookController",
+    "Method": "GetQuanlityAsync",
+    "RelativePath": "api/Book/quanlity/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI_BookStoreManagement.Controllers.BookController",
     "Method": "SearchBookByPublisherAsync",
     "RelativePath": "api/Book/searchbooksbypub/{idpub}, {namebook}",
     "HttpMethod": "GET",

@@ -20,6 +20,10 @@ namespace WebAPI_BookStoreManagement.Services
                 float? total = await CalculateTotalAsync(bookinvoicedetail.idbook, bookinvoicedetail.quanlity);
                 bookinvoicedetail.totalprice = Convert.ToDecimal(total);
                 await _unitOfWork.BookInvoiceDetail.AddAsync(bookinvoicedetail);
+
+                var book = await _unitOfWork.Books.GetByIdAsync(bookinvoicedetail.idbook);
+                book.quanlitystock -= 1;
+                _unitOfWork.Books.UpdateAsync(book);
             }
             else
             {
@@ -32,7 +36,10 @@ namespace WebAPI_BookStoreManagement.Services
                     float? total = await CalculateTotalAsync(bookinvoicedetail.idbook, bookinvoicedetail.quanlity);
                     bookinvoicedetail.totalprice = Convert.ToDecimal(total);
                 }
+                var book = await _unitOfWork.Books.GetByIdAsync(bookinvoicedetail.idbook);
+                book.quanlitystock -= 1;
 
+                _unitOfWork.Books.UpdateAsync(book);
                 _unitOfWork.BookInvoiceDetail.UpdateAsync(bookinvoicedetail);
             }
 
@@ -48,6 +55,12 @@ namespace WebAPI_BookStoreManagement.Services
 
         public async Task DeleteBookInvoiceDetailAsync(string idinvoice, string idbook)
         {
+            var book = await _unitOfWork.Books.GetByIdAsync(idbook);
+            var detail = await GetBookInvoiceDetailByIdAsync(idinvoice, idbook);
+
+            book.quanlitystock += detail.quanlity;
+
+            _unitOfWork.Books.UpdateAsync(book);
             await _unitOfWork.BookInvoiceDetail.DeleteBookAsync(idinvoice, idbook);
             await _unitOfWork.SaveChangeAsync();
         }

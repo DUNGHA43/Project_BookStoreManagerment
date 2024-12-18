@@ -55,5 +55,10 @@ namespace BLL
         {
             return await _book.DeleteAsync(id);
         }
+
+        public async Task<int> GetQuanlityBookAsync(string? id)
+        {
+            return await _book.GetQuanlityBookAsync(id);
+        }
     }
 }
