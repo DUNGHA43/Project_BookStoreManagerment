@@ -496,6 +496,64 @@
   },
   {
     "ContainingType": "WebAPI_BookStoreManagement.Controllers.BookInvoiceController",
+    "Method": "GetStatisticalRevenueByMonthAsync",
+    "RelativePath": "api/BookInvoice/revenuebymonth/{month},{year}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "month",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI_BookStoreManagement.Controllers.BookInvoiceController",
+    "Method": "GetStatisticalRevenueByQuaterAsync",
+    "RelativePath": "api/BookInvoice/revenuebyquater/{quater},{year}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "quater",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI_BookStoreManagement.Controllers.BookInvoiceController",
+    "Method": "GetStatisticalRevenueByYearAsync",
+    "RelativePath": "api/BookInvoice/revenuebyyear/{year}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI_BookStoreManagement.Controllers.BookInvoiceController",
     "Method": "GetTotalBookInvoiceAsync",
     "RelativePath": "api/BookInvoice/total/{id}",
     "HttpMethod": "GET",

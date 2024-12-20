@@ -58,6 +58,21 @@ namespace WebAPI_BookStoreManagement.Services
             return await _unitOfWork.BookInvoice.GetStatisticalInvoiceByYearAsync(year);
         }
 
+        public async Task<IEnumerable<dynamic>> GetStatisticalRevenueByMonthAsync(int month, int year)
+        {
+            return await _unitOfWork.BookInvoice.GetStatisticalInvoiceByMonthAsync(month, year);
+        }
+
+        public async Task<IEnumerable<dynamic>> GetStatisticalRevenueByQuaterAsync(int quater, int year)
+        {
+            return await _unitOfWork.BookInvoice.GetStatisticalRevenueByQuaterAsync(quater, year);
+        }
+
+        public async Task<IEnumerable<dynamic>> GetStatisticalRevenueByYearAsync(int year)
+        {
+            return await _unitOfWork.BookInvoice.GetStatisticalRevenueByYearAsync(year);
+        }
+
         public async Task<IEnumerable<BookInvoice>> SearchBookInvoiceByIdAsync(string id)
         {
             return await _unitOfWork.BookInvoice.SearchBookInvoiceById(id);

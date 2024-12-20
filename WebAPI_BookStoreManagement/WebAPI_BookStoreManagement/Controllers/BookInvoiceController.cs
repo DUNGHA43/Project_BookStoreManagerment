@@ -50,6 +50,39 @@ namespace WebAPI_BookStoreManagement.Controllers
             return Ok(report);
         }
 
+        [HttpGet("revenuebyyear/{year}")]
+        public async Task<IActionResult> GetStatisticalRevenueByYearAsync(int year)
+        {
+            var report = await _bookinvoiceservice.GetStatisticalRevenueByYearAsync(year);
+
+            if (report == null)
+                return NotFound();
+
+            return Ok(report);
+        }
+
+        [HttpGet("revenuebymonth/{month},{year}")]
+        public async Task<IActionResult> GetStatisticalRevenueByMonthAsync(int month, int year)
+        {
+            var report = await _bookinvoiceservice.GetStatisticalRevenueByYearAsync(year);
+
+            if (report == null)
+                return NotFound();
+
+            return Ok(report);
+        }
+
+        [HttpGet("revenuebyquater/{quater},{year}")]
+        public async Task<IActionResult> GetStatisticalRevenueByQuaterAsync(int quater, int year)
+        {
+            var report = await _bookinvoiceservice.GetStatisticalRevenueByYearAsync(year);
+
+            if (report == null)
+                return NotFound();
+
+            return Ok(report);
+        }
+
         [HttpGet("reportbyquater/{quater},{year}")]
         public async Task<IActionResult> GetStatisticalInvoiceByYearAsync(int quater, int year)
         {

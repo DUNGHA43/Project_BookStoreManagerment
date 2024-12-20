@@ -14,5 +14,8 @@ namespace WebAPI_BookStoreManagement.Services
         Task<IEnumerable<dynamic>> GetStatisticalInvoiceByYearAsync(int year);
         Task<IEnumerable<dynamic>> GetStatisticalInvoiceByQuaterAsync(int quater, int year);
         Task<IEnumerable<dynamic>> GetStatisticalInvoiceByMonthAsync(int month, int year);
+        Task<IEnumerable<dynamic>> GetStatisticalRevenueByYearAsync(int year);
+        Task<IEnumerable<dynamic>> GetStatisticalRevenueByQuaterAsync(int quater, int year);
+        Task<IEnumerable<dynamic>> GetStatisticalRevenueByMonthAsync(int month, int year);
     }
 }
