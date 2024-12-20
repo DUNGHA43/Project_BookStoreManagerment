@@ -28,6 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            DevExpress.XtraCharts.XYDiagram xyDiagram1 = new DevExpress.XtraCharts.XYDiagram();
+            DevExpress.XtraCharts.Series series1 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.StackedBarSeriesView stackedBarSeriesView1 = new DevExpress.XtraCharts.StackedBarSeriesView();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(uiInvoiceReports));
             groupControl1 = new DevExpress.XtraEditors.GroupControl();
             panel3 = new System.Windows.Forms.Panel();
@@ -35,16 +38,15 @@
             gvTable = new DevExpress.XtraGrid.Views.Grid.GridView();
             gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             panel2 = new System.Windows.Forms.Panel();
+            chartControl2 = new DevExpress.XtraCharts.ChartControl();
             chartReceipt = new DevExpress.XtraCharts.ChartControl();
             chartControl1 = new DevExpress.XtraCharts.ChartControl();
             btnClose = new DevExpress.XtraEditors.SimpleButton();
             btnSatistical = new DevExpress.XtraEditors.SimpleButton();
             btnPrint = new DevExpress.XtraEditors.SimpleButton();
             groupBox2 = new System.Windows.Forms.GroupBox();
-            cbxD = new System.Windows.Forms.ComboBox();
             label3 = new System.Windows.Forms.Label();
-            label2 = new System.Windows.Forms.Label();
-            label1 = new System.Windows.Forms.Label();
+            lbM = new System.Windows.Forms.Label();
             cbxY = new System.Windows.Forms.ComboBox();
             cbxM = new System.Windows.Forms.ComboBox();
             rdoQ = new System.Windows.Forms.RadioButton();
@@ -59,6 +61,10 @@
             ((System.ComponentModel.ISupportInitialize)gvTable).BeginInit();
             ((System.ComponentModel.ISupportInitialize)gridView1).BeginInit();
             panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)chartControl2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)xyDiagram1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)series1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)stackedBarSeriesView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)chartReceipt).BeginInit();
             ((System.ComponentModel.ISupportInitialize)chartControl1).BeginInit();
             groupBox2.SuspendLayout();
@@ -75,7 +81,7 @@
             groupControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             groupControl1.Location = new System.Drawing.Point(0, 0);
             groupControl1.Name = "groupControl1";
-            groupControl1.Size = new System.Drawing.Size(834, 465);
+            groupControl1.Size = new System.Drawing.Size(834, 430);
             groupControl1.TabIndex = 2;
             groupControl1.Text = "Thông tin thống kê xuất";
             // 
@@ -85,7 +91,7 @@
             panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             panel3.Location = new System.Drawing.Point(422, 23);
             panel3.Name = "panel3";
-            panel3.Size = new System.Drawing.Size(410, 440);
+            panel3.Size = new System.Drawing.Size(410, 405);
             panel3.TabIndex = 1;
             // 
             // gcTable
@@ -94,7 +100,7 @@
             gcTable.Location = new System.Drawing.Point(0, 0);
             gcTable.MainView = gvTable;
             gcTable.Name = "gcTable";
-            gcTable.Size = new System.Drawing.Size(410, 440);
+            gcTable.Size = new System.Drawing.Size(410, 405);
             gcTable.TabIndex = 0;
             gcTable.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] { gvTable, gridView1 });
             // 
@@ -111,20 +117,46 @@
             // 
             // panel2
             // 
+            panel2.Controls.Add(chartControl2);
             panel2.Controls.Add(chartReceipt);
             panel2.Controls.Add(chartControl1);
             panel2.Dock = System.Windows.Forms.DockStyle.Left;
             panel2.Location = new System.Drawing.Point(2, 23);
             panel2.Name = "panel2";
-            panel2.Size = new System.Drawing.Size(420, 440);
+            panel2.Size = new System.Drawing.Size(420, 405);
             panel2.TabIndex = 0;
+            // 
+            // chartControl2
+            // 
+            xyDiagram1.AxisX.MinorCount = 2;
+            xyDiagram1.AxisX.VisibleInPanesSerializable = "-1";
+            xyDiagram1.AxisX.VisualRange.Auto = false;
+            xyDiagram1.AxisX.VisualRange.MaxValueSerializable = "12";
+            xyDiagram1.AxisX.VisualRange.MinValueSerializable = "1";
+            xyDiagram1.AxisX.WholeRange.Auto = false;
+            xyDiagram1.AxisX.WholeRange.MaxValueSerializable = "12";
+            xyDiagram1.AxisX.WholeRange.MinValueSerializable = "0";
+            xyDiagram1.AxisY.VisibleInPanesSerializable = "-1";
+            chartControl2.Diagram = xyDiagram1;
+            chartControl2.Dock = System.Windows.Forms.DockStyle.Fill;
+            chartControl2.Legend.Name = "Xuất";
+            chartControl2.Location = new System.Drawing.Point(0, 0);
+            chartControl2.Name = "chartControl2";
+            series1.Name = "Xuất";
+            series1.View = stackedBarSeriesView1;
+            chartControl2.SeriesSerializable = new DevExpress.XtraCharts.Series[]
+    {
+    series1
+    };
+            chartControl2.Size = new System.Drawing.Size(420, 405);
+            chartControl2.TabIndex = 7;
             // 
             // chartReceipt
             // 
             chartReceipt.Dock = System.Windows.Forms.DockStyle.Fill;
             chartReceipt.Location = new System.Drawing.Point(0, 0);
             chartReceipt.Name = "chartReceipt";
-            chartReceipt.Size = new System.Drawing.Size(420, 440);
+            chartReceipt.Size = new System.Drawing.Size(420, 405);
             chartReceipt.TabIndex = 1;
             // 
             // chartControl1
@@ -132,32 +164,34 @@
             chartControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             chartControl1.Location = new System.Drawing.Point(0, 0);
             chartControl1.Name = "chartControl1";
-            chartControl1.Size = new System.Drawing.Size(420, 440);
+            chartControl1.Size = new System.Drawing.Size(420, 405);
             chartControl1.TabIndex = 0;
             // 
             // btnClose
             // 
             btnClose.Anchor = System.Windows.Forms.AnchorStyles.None;
             btnClose.ImageOptions.Image = (System.Drawing.Image)resources.GetObject("btnClose.ImageOptions.Image");
-            btnClose.Location = new System.Drawing.Point(706, 23);
+            btnClose.Location = new System.Drawing.Point(706, 40);
             btnClose.Name = "btnClose";
             btnClose.Size = new System.Drawing.Size(71, 78);
             btnClose.TabIndex = 4;
+            btnClose.Click += btnClose_Click;
             // 
             // btnSatistical
             // 
             btnSatistical.Anchor = System.Windows.Forms.AnchorStyles.None;
             btnSatistical.ImageOptions.Image = (System.Drawing.Image)resources.GetObject("btnSatistical.ImageOptions.Image");
-            btnSatistical.Location = new System.Drawing.Point(519, 23);
+            btnSatistical.Location = new System.Drawing.Point(519, 40);
             btnSatistical.Name = "btnSatistical";
             btnSatistical.Size = new System.Drawing.Size(71, 78);
             btnSatistical.TabIndex = 3;
+            btnSatistical.Click += btnSatistical_Click;
             // 
             // btnPrint
             // 
             btnPrint.Anchor = System.Windows.Forms.AnchorStyles.None;
             btnPrint.ImageOptions.Image = (System.Drawing.Image)resources.GetObject("btnPrint.ImageOptions.Image");
-            btnPrint.Location = new System.Drawing.Point(614, 23);
+            btnPrint.Location = new System.Drawing.Point(614, 40);
             btnPrint.Name = "btnPrint";
             btnPrint.Size = new System.Drawing.Size(71, 78);
             btnPrint.TabIndex = 2;
@@ -165,65 +199,43 @@
             // groupBox2
             // 
             groupBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            groupBox2.Controls.Add(cbxD);
             groupBox2.Controls.Add(label3);
-            groupBox2.Controls.Add(label2);
-            groupBox2.Controls.Add(label1);
+            groupBox2.Controls.Add(lbM);
             groupBox2.Controls.Add(cbxY);
             groupBox2.Controls.Add(cbxM);
-            groupBox2.Location = new System.Drawing.Point(205, 6);
+            groupBox2.Location = new System.Drawing.Point(205, 23);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new System.Drawing.Size(226, 105);
             groupBox2.TabIndex = 1;
             groupBox2.TabStop = false;
             groupBox2.Text = "Thời gian";
             // 
-            // cbxD
-            // 
-            cbxD.Anchor = System.Windows.Forms.AnchorStyles.None;
-            cbxD.FormattingEnabled = true;
-            cbxD.Items.AddRange(new object[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" });
-            cbxD.Location = new System.Drawing.Point(71, 21);
-            cbxD.Name = "cbxD";
-            cbxD.Size = new System.Drawing.Size(154, 23);
-            cbxD.TabIndex = 6;
-            // 
             // label3
             // 
             label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             label3.AutoSize = true;
-            label3.Location = new System.Drawing.Point(24, 78);
+            label3.Location = new System.Drawing.Point(16, 66);
             label3.Name = "label3";
             label3.Size = new System.Drawing.Size(36, 15);
             label3.TabIndex = 5;
             label3.Text = "Năm:";
             // 
-            // label2
+            // lbM
             // 
-            label2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            label2.AutoSize = true;
-            label2.Location = new System.Drawing.Point(24, 51);
-            label2.Name = "label2";
-            label2.Size = new System.Drawing.Size(43, 15);
-            label2.TabIndex = 4;
-            label2.Text = "Tháng:";
-            // 
-            // label1
-            // 
-            label1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            label1.AutoSize = true;
-            label1.Location = new System.Drawing.Point(24, 25);
-            label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(38, 15);
-            label1.TabIndex = 3;
-            label1.Text = "Ngày:";
+            lbM.Anchor = System.Windows.Forms.AnchorStyles.None;
+            lbM.AutoSize = true;
+            lbM.Location = new System.Drawing.Point(16, 39);
+            lbM.Name = "lbM";
+            lbM.Size = new System.Drawing.Size(43, 15);
+            lbM.TabIndex = 4;
+            lbM.Text = "Tháng:";
             // 
             // cbxY
             // 
             cbxY.Anchor = System.Windows.Forms.AnchorStyles.None;
             cbxY.FormattingEnabled = true;
             cbxY.Items.AddRange(new object[] { "2023", "2024", "2025", "2026" });
-            cbxY.Location = new System.Drawing.Point(71, 75);
+            cbxY.Location = new System.Drawing.Point(63, 63);
             cbxY.Name = "cbxY";
             cbxY.Size = new System.Drawing.Size(154, 23);
             cbxY.TabIndex = 2;
@@ -233,7 +245,7 @@
             cbxM.Anchor = System.Windows.Forms.AnchorStyles.None;
             cbxM.FormattingEnabled = true;
             cbxM.Items.AddRange(new object[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12" });
-            cbxM.Location = new System.Drawing.Point(71, 48);
+            cbxM.Location = new System.Drawing.Point(63, 36);
             cbxM.Name = "cbxM";
             cbxM.Size = new System.Drawing.Size(154, 23);
             cbxM.TabIndex = 1;
@@ -249,6 +261,7 @@
             rdoQ.TabStop = true;
             rdoQ.Text = "Quý";
             rdoQ.UseVisualStyleBackColor = true;
+            rdoQ.Click += rdoQ_Click;
             // 
             // rdoM
             // 
@@ -261,6 +274,7 @@
             rdoM.TabStop = true;
             rdoM.Text = "Tháng";
             rdoM.UseVisualStyleBackColor = true;
+            rdoM.Click += rdoM_Click;
             // 
             // groupBox1
             // 
@@ -268,7 +282,7 @@
             groupBox1.Controls.Add(rdoY);
             groupBox1.Controls.Add(rdoQ);
             groupBox1.Controls.Add(rdoM);
-            groupBox1.Location = new System.Drawing.Point(55, 14);
+            groupBox1.Location = new System.Drawing.Point(55, 31);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new System.Drawing.Size(97, 92);
             groupBox1.TabIndex = 0;
@@ -286,6 +300,7 @@
             rdoY.TabStop = true;
             rdoY.Text = "Năm";
             rdoY.UseVisualStyleBackColor = true;
+            rdoY.Click += rdoY_Click;
             // 
             // panel1
             // 
@@ -295,9 +310,9 @@
             panel1.Controls.Add(groupBox2);
             panel1.Controls.Add(groupBox1);
             panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            panel1.Location = new System.Drawing.Point(0, 465);
+            panel1.Location = new System.Drawing.Point(0, 430);
             panel1.Name = "panel1";
-            panel1.Size = new System.Drawing.Size(834, 118);
+            panel1.Size = new System.Drawing.Size(834, 153);
             panel1.TabIndex = 3;
             // 
             // uiInvoiceReports
@@ -315,6 +330,10 @@
             ((System.ComponentModel.ISupportInitialize)gvTable).EndInit();
             ((System.ComponentModel.ISupportInitialize)gridView1).EndInit();
             panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)xyDiagram1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)stackedBarSeriesView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)series1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)chartControl2).EndInit();
             ((System.ComponentModel.ISupportInitialize)chartReceipt).EndInit();
             ((System.ComponentModel.ISupportInitialize)chartControl1).EndInit();
             groupBox2.ResumeLayout(false);
@@ -339,10 +358,8 @@
         private DevExpress.XtraEditors.SimpleButton btnSatistical;
         private DevExpress.XtraEditors.SimpleButton btnPrint;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.ComboBox cbxD;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lbM;
         private System.Windows.Forms.ComboBox cbxY;
         private System.Windows.Forms.ComboBox cbxM;
         private System.Windows.Forms.RadioButton rdoQ;
@@ -350,5 +367,6 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.RadioButton rdoY;
         private System.Windows.Forms.Panel panel1;
+        private DevExpress.XtraCharts.ChartControl chartControl2;
     }
 }

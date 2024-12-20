@@ -29,6 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(uiRevenueReports));
+            DevExpress.XtraCharts.XYDiagram xyDiagram1 = new DevExpress.XtraCharts.XYDiagram();
+            DevExpress.XtraCharts.Series series1 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.StackedBarSeriesView stackedBarSeriesView1 = new DevExpress.XtraCharts.StackedBarSeriesView();
             panel1 = new System.Windows.Forms.Panel();
             btnClose = new DevExpress.XtraEditors.SimpleButton();
             btnSatistical = new DevExpress.XtraEditors.SimpleButton();
@@ -52,6 +55,7 @@
             gvTable = new DevExpress.XtraGrid.Views.Grid.GridView();
             panel3 = new System.Windows.Forms.Panel();
             groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            chartControl2 = new DevExpress.XtraCharts.ChartControl();
             panel1.SuspendLayout();
             groupBox2.SuspendLayout();
             groupBox1.SuspendLayout();
@@ -64,6 +68,10 @@
             panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)groupControl1).BeginInit();
             groupControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)chartControl2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)xyDiagram1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)series1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)stackedBarSeriesView1).BeginInit();
             SuspendLayout();
             // 
             // panel1
@@ -249,6 +257,7 @@
             // 
             // panel2
             // 
+            panel2.Controls.Add(chartControl2);
             panel2.Controls.Add(chartReceipt);
             panel2.Controls.Add(chartControl1);
             panel2.Dock = System.Windows.Forms.DockStyle.Left;
@@ -300,6 +309,31 @@
             groupControl1.TabIndex = 4;
             groupControl1.Text = "Thông tin thống kê doanh thu";
             // 
+            // chartControl2
+            // 
+            xyDiagram1.AxisX.MinorCount = 2;
+            xyDiagram1.AxisX.VisibleInPanesSerializable = "-1";
+            xyDiagram1.AxisX.VisualRange.Auto = false;
+            xyDiagram1.AxisX.VisualRange.MaxValueSerializable = "12";
+            xyDiagram1.AxisX.VisualRange.MinValueSerializable = "1";
+            xyDiagram1.AxisX.WholeRange.Auto = false;
+            xyDiagram1.AxisX.WholeRange.MaxValueSerializable = "12";
+            xyDiagram1.AxisX.WholeRange.MinValueSerializable = "0";
+            xyDiagram1.AxisY.VisibleInPanesSerializable = "-1";
+            chartControl2.Diagram = xyDiagram1;
+            chartControl2.Dock = System.Windows.Forms.DockStyle.Fill;
+            chartControl2.Legend.Name = "Xuất";
+            chartControl2.Location = new System.Drawing.Point(0, 0);
+            chartControl2.Name = "chartControl2";
+            series1.Name = "Doanh thu";
+            series1.View = stackedBarSeriesView1;
+            chartControl2.SeriesSerializable = new DevExpress.XtraCharts.Series[]
+    {
+    series1
+    };
+            chartControl2.Size = new System.Drawing.Size(420, 439);
+            chartControl2.TabIndex = 6;
+            // 
             // uiRevenueReports
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -322,6 +356,10 @@
             panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)groupControl1).EndInit();
             groupControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)xyDiagram1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)stackedBarSeriesView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)series1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)chartControl2).EndInit();
             ResumeLayout(false);
         }
 
@@ -350,5 +388,6 @@
         private DevExpress.XtraGrid.Views.Grid.GridView gvTable;
         private System.Windows.Forms.Panel panel3;
         private DevExpress.XtraEditors.GroupControl groupControl1;
+        private DevExpress.XtraCharts.ChartControl chartControl2;
     }
 }

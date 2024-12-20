@@ -34,6 +34,20 @@ namespace BLL
             return await _bookinvoice.GetTotalInvoiceAsync(id);
         }
 
+        public async Task<IEnumerable<dynamic>> StatisticalReceiptByYearAsync(int year)
+        {
+            return await _bookinvoice.StatisticalInvoiceByYearAsync(year);
+        }
+
+        public async Task<IEnumerable<dynamic>> StatisticalReceiptByMonthAsync(int month, int year)
+        {
+            return await _bookinvoice.StatisticalInvoiceByMonthAsync(month, year);
+        }
+        public async Task<IEnumerable<dynamic>> StatisticalReceiptByQuaterAsync(int quater, int year)
+        {
+            return await _bookinvoice.StatisticalInvoiceByQuaterAsync(quater, year);
+        }
+
         public async Task<bool> AddBookInvoiceAsync(BookInvoiceDTO bookInvoiceDTO)
         {
             return await _bookinvoice.AddAsync(bookInvoiceDTO);

@@ -177,6 +177,7 @@ namespace GUI.UI
 
                     MessageBox.Show("Thêm không thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
+                
             }
             if (status.Equals("update"))
             {

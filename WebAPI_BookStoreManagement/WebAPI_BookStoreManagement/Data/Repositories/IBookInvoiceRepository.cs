@@ -6,5 +6,8 @@ namespace WebAPI_BookStoreManagement.Data.Repositories
     {
         Task<IEnumerable<BookInvoice>> SearchBookInvoiceById(string id);
         Task<decimal?> CalculateInvoiceTotalAsync(string id);
+        Task<IEnumerable<dynamic>> GetStatisticalInvoiceByYearAsync(int year);
+        Task<IEnumerable<dynamic>> GetStatisticalInvoiceByQuaterAsync(int quater, int year);
+        Task<IEnumerable<dynamic>> GetStatisticalInvoiceByMonthAsync(int month, int year);
     }
 }

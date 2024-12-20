@@ -68,6 +68,81 @@ namespace DAL
             }
         }
 
+        public async Task<IEnumerable<dynamic>> StatisticalReceiptByYearAsync(int year)
+        {
+            try
+            {
+                string requestUrl = $"{_apiUrl}/reportbyyear/{year}";           
+                HttpResponseMessage response = await _httpClient.GetAsync(requestUrl);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    string responsebody = await response.Content.ReadAsStringAsync();
+                    var report = JsonConvert.DeserializeObject<List<dynamic>>(responsebody);
+                    return report;
+                }
+                else
+                {
+                    string errorResponse = await response.Content.ReadAsStringAsync();
+                    throw new Exception(errorResponse);
+                }
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
+
+        public async Task<IEnumerable<dynamic>> StatisticalReceiptByMonthAsync(int month, int year)
+        {
+            try
+            {
+                string requestUrl = $"{_apiUrl}/reportbymonth/{month},{year}";
+                HttpResponseMessage response = await _httpClient.GetAsync(requestUrl);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    string responsebody = await response.Content.ReadAsStringAsync();
+                    var report = JsonConvert.DeserializeObject<List<dynamic>>(responsebody);
+                    return report;
+                }
+                else
+                {
+                    string errorResponse = await response.Content.ReadAsStringAsync();
+                    throw new Exception(errorResponse);
+                }
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
+
+        public async Task<IEnumerable<dynamic>> StatisticalReceiptByQuaterAsync(int quater,int year)
+        {
+            try
+            {
+                string requestUrl = $"{_apiUrl}/reportbyquater/{quater},{year}";
+                HttpResponseMessage response = await _httpClient.GetAsync(requestUrl);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    string responsebody = await response.Content.ReadAsStringAsync();
+                    var report = JsonConvert.DeserializeObject<List<dynamic>>(responsebody);
+                    return report;
+                }
+                else
+                {
+                    string errorResponse = await response.Content.ReadAsStringAsync();
+                    throw new Exception(errorResponse);
+                }
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
+
         public async Task<decimal> GetTotalReceiptAsync(string id)
         {
             try

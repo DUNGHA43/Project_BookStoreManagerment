@@ -44,5 +44,19 @@ namespace BLL
         {
             return await _bookrecipt.DeleteAsync(id);
         }
+
+        public async Task<IEnumerable<dynamic>> StatisticalReceiptByYearAsync(int year)
+        {
+            return await _bookrecipt.StatisticalReceiptByYearAsync(year);
+        }
+
+        public async Task<IEnumerable<dynamic>> StatisticalReceiptByMonthAsync(int month, int year)
+        {
+            return await _bookrecipt.StatisticalReceiptByMonthAsync(month, year);
+        }
+        public async Task<IEnumerable<dynamic>> StatisticalReceiptByQuaterAsync(int quater, int year)
+        {
+            return await _bookrecipt.StatisticalReceiptByQuaterAsync(quater, year);
+        }
     }
 }

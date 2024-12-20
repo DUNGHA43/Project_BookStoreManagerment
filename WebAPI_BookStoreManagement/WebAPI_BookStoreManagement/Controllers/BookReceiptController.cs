@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using WebAPI_BookManagement.Model;
 using WebAPI_BookStoreManagement.DTO;
 using WebAPI_BookStoreManagement.Services;
@@ -34,6 +35,39 @@ namespace WebAPI_BookStoreManagement.Controllers
                 return NotFound();
 
             return Ok(bookreceipt);
+        }
+
+        [HttpGet("reportbyyear/{year}")]
+        public async Task<IActionResult> GetStatisticalReceiptsByYearAsync(int year)
+        {
+            var report = await _bookReceiptServices.GetStatisticalReceiptsByYearAsync(year);
+
+            if(report == null)
+                return NotFound();
+
+            return Ok(report);
+        }
+
+        [HttpGet("reportbyquater/{quater},{year}")]
+        public async Task<IActionResult> GetStatisticalReceiptsByYearAsync(int quater, int year)
+        {
+            var report = await _bookReceiptServices.GetStatisticalReceiptsByQuaterAsync(quater, year);
+
+            if (report == null)
+                return NotFound();
+
+            return Ok(report);
+        }
+
+        [HttpGet("reportbymonth/{month},{year}")]
+        public async Task<IActionResult> GetStatisticalReceiptsByMonthAsync(int month, int year)
+        {
+            var report = await _bookReceiptServices.GetStatisticalReceiptsByMonthAsync(month, year);
+
+            if (report == null)
+                return NotFound();
+
+            return Ok(report);
         }
 
         [HttpGet("total/{id}")]

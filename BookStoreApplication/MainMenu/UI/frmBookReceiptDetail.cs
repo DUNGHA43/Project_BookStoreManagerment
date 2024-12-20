@@ -141,6 +141,7 @@ namespace GUI.UI
                     txtTotal.Text = "0";
                     MessageBox.Show("Lỗi!! Vui lòng gọi hỗ trợ viên!", "Cảnh báo!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
+                LoadAllBookByPub();
             }
         }
 
@@ -166,6 +167,7 @@ namespace GUI.UI
                     txtTotal.Text = "0";
                     MessageBox.Show("Lỗi!! Vui lòng gọi hỗ trợ viên!", "Cảnh báo!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
+                LoadAllBookByPub();
             }
         }
     }

@@ -11,5 +11,8 @@ namespace WebAPI_BookStoreManagement.Services
         Task DeleteBookInvoiceAsync(string id);
         Task<IEnumerable<BookInvoice>> SearchBookInvoiceByIdAsync(string id);
         Task<decimal?> CalculateInvoiceTotalAsync(string id);
+        Task<IEnumerable<dynamic>> GetStatisticalInvoiceByYearAsync(int year);
+        Task<IEnumerable<dynamic>> GetStatisticalInvoiceByQuaterAsync(int quater, int year);
+        Task<IEnumerable<dynamic>> GetStatisticalInvoiceByMonthAsync(int month, int year);
     }
 }

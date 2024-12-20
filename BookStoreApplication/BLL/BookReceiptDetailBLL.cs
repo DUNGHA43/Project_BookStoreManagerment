@@ -32,5 +32,6 @@ namespace BLL
         {
             return await _bookReceiptDetail.DeleteBookInDetailAsync(idreceipt, idbook);
         }
+
     }
 }
